@@ -1,0 +1,27 @@
+<section id="fh5co-work" data-section="work">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Blog</h2>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                        <h3>Découvrez nos derniers articles</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-bottom-padded-sm">
+            {% for article in articles %}
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="">
+                        <img src="{{ article.featuredImage }}" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                            <h2>{{ article.title }}</h2>
+                            <span>{{ article.content }}</span>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

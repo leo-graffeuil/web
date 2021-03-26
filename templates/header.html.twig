@@ -1,0 +1,43 @@
+{% block header %}
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+            <!-- <div class="row"> -->
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <!-- Mobile Toggle Menu Button -->
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse"
+                       data-target="#navbar"
+                       aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="index.html">Kiribati</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="home"><span>Accueil</span></a></li>
+                        <li><a href="#" data-nav-section="work"><span>Blog</span></a></li>
+                        <li><a href="#" data-nav-section="testimonials"><span>Témoignages</span></a></li>
+                        <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+                        <li><a href="#" data-nav-section="about"><span>l'équipe</span></a></li>
+                        <li><a href="{{ path('contact') }}" class="external">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="fh5co-home" data-section="home";
+             data-stellar-background-ratio="0.5">
+        <div class="gradient"></div>
+        <div class="container">
+            <div class="text-wrap">
+                <div class="text-inner">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="to-animate">La solution logicielle Kiribati </h1>
+                            <h2 class="to-animate">plonge aux
+                                racines de vos données extra-financières...</h2></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slant"></div>
+    </section>
+{% endblock %}

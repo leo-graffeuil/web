@@ -1,0 +1,75 @@
+{% extends '@EasyAdmin/layout.html.twig' %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="css/bootstrap.css">
+{% endblock %}
+
+{% block main %}
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez écrit actuellement</h5>
+                    <p class="card-text">{{ articles }} articles</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez reçu</h5>
+                    <p class="card-text">{{ contact }} messages</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez enregistré</h5>
+                    <p class="card-text">{{ author }} auteurs</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez enregistré</h5>
+                    <p class="card-text">{{ employee }} salariés</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez reçu</h5>
+                    <p class="card-text">{{ contact }} messages</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez crée</h5>
+                    <p class="card-text">{{ category }} catégories</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez enregistré</h5>
+                    <p class="card-text">{{ job }} métiers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Vous avez enregitré</h5>
+                    <p class="card-text">{{ testimonial }} témoignages</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
