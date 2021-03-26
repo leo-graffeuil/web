@@ -16,7 +16,7 @@
 
 make project
 
-* Le projet sera accesible à cet URL "http://0.0.0.0/home"
+* Le projet sera accesible à cet URL "http://0.0.0.0/"
 
 #### Back office du site web 
  
