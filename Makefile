@@ -2,6 +2,8 @@
 # PROJECT
 # --------------------------------------------------------------------
 
+project: composer-install symfony-clear-cache docker-start console-doctrine-database-drop console-doctrine-database-create console-doctrine-schema-update fixtures
+
 project-start: composer-install symfony-clear-cache docker-start
 
 project-stop: docker-stop

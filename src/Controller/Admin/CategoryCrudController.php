@@ -72,8 +72,10 @@ class CategoryCrudController extends AbstractCrudController
 
         if (count($articles) > 0) {
             $session = $this->get('request_stack')->getCurrentRequest()->getSession();
-            $session->getFlashBag()->add('danger', 'Cette catégorie contient des articles et ne peut pas être supprimé');
-            // Show warning messages
+            $session->getFlashBag()->add(
+                'danger',
+                'Cette catégorie contient des articles et ne peut pas être supprimé'
+            );
             return;
         }
 

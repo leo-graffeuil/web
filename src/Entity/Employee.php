@@ -155,5 +155,4 @@ class Employee
 
         return $this;
     }
-
 }

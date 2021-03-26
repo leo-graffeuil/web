@@ -55,5 +55,4 @@ class TestimonialCrudController extends AbstractCrudController
                 return $action->setLabel('editer');
             });
     }
-
 }

@@ -11,7 +11,6 @@ use Symfony\Component\Uid\UuidV4;
 use Symfony\Component\Validator\Constraints\Date;
 use Symfony\Component\Validator\Constraints as Assert;
 
-
 /**
  * Class Contact
  *

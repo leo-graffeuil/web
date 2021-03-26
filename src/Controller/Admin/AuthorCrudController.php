@@ -63,7 +63,7 @@ class AuthorCrudController extends AbstractCrudController
      * @param EntityManagerInterface $entityManager
      * @param                        $entityInstance
      */
-    public function deleteEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    public function deleteEntity(EntityManagerInterface $entityManager,  $entityInstance): void
     {
         $articles = $entityManager->getRepository(Article::class)->findBy(
             [

@@ -21,7 +21,7 @@ class HomeController extends AbstractController
      */
     public function index(): Response
     {
-        $articles = $this->getDoctrine()->getRepository(Article::class)->findBy([],[], 3);
+        $articles = $this->getDoctrine()->getRepository(Article::class)->findBy([], [], 3);
         $employees = $this->getDoctrine()->getRepository(Employee::class)->findAll();
         $testimonials = $this->getDoctrine()->getRepository(Testimonial::class)->findAll();
 

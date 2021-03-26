@@ -88,7 +88,7 @@ class AppFixtures extends Fixture
         }
 
         $employee = [];
-        for ($i = 0; $i < 13; $i++) {
+        for ($i = 0; $i < 6; $i++) {
             $employee [$i] = new Employee();
             $employee [$i]->setFirstName($faker->firstName);
             $employee [$i]->setLastName($faker->lastName);
@@ -112,7 +112,8 @@ class AppFixtures extends Fixture
         $user = new User();
         $user->setEmail('admin@test.fr');
         $user->setPassword($this->passwordEncoder->encodePassword(
-            $user, 'admin'
+            $user,
+            'admin'
         ));
         $user->setRoles(['ROLE_ADMIN']);
         $manager->persist($user);

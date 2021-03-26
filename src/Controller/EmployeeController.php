@@ -21,5 +21,4 @@ class EmployeeController extends AbstractController
             'employees' => $employees,
         ]);
     }
-
 }
