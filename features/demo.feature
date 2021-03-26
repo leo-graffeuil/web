@@ -4,7 +4,7 @@ Feature: Home Page and Dashboard
   # HOME PAGE AND FORM CONTACT VALID #
   #                                  #
   Scenario: Home Page and form Contact [HAPPY FLOW]
-    When I am on "/home"
+    When I am on "/"
     Then the response status code should be 200
     And I should see "La solution logicielle Kiribati"
     And I follow "Contact"
