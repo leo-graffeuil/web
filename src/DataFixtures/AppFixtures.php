@@ -68,12 +68,13 @@ class AppFixtures extends Fixture
         for ($i = 0; $i < 10; $i++) {
             $article [$i] = new Article();
             $article [$i]->setTitle($faker->sentence($nbWords = 6, $variableNbWords = true));
-            $article [$i]->setContent($faker->text($maxNbChars = 200));
+            $article [$i]->setContent($faker->text($maxNbChars = 2000));
             $article [$i]->setPublicationDate($faker->dateTime);
             $article [$i]->setAuthor($author);
             $article [$i]->setCategory($category);
             $article [$i]->setUpdatedAt($faker->dateTime);
             $article [$i]->setFeaturedImage($faker->name);
+            $article [$i]->setSlug($faker->slug);
             $faker->addProvider(new ImagesGeneratorProvider($faker));
 
             $manager->persist($article [$i]);
