@@ -4,8 +4,10 @@ namespace App\Entity;
 
 use App\Repository\AuthorRepository;
 use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Bridge\Doctrine\IdGenerator\UuidV4Generator;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Uid\UuidV4;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -17,11 +19,13 @@ use Symfony\Component\Validator\Constraints as Assert;
 class Author
 {
     /**
+     * @var string
      * @ORM\Id
-     * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="uuid", unique=true)
+     * @ORM\GeneratedValue(strategy="CUSTOM")
+     * @ORM\CustomIdGenerator(class=UuidV4Generator::class)
      */
-    private $id;
+    private $id = UuidV4::class;
 
     /**
      * @var string
@@ -62,12 +66,13 @@ class Author
     }
 
     /**
-     * @return int|null
+     * @return string
      */
-    public function getId(): ?int
+    public function getId(): string
     {
         return $this->id;
     }
+
 
     /**
      * @return string|null

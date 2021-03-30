@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use App\Repository\TestimonialRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\IdGenerator\UuidV4Generator;
+use Symfony\Component\Uid\UuidV4;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -15,11 +17,13 @@ use Symfony\Component\Validator\Constraints as Assert;
 class Testimonial
 {
     /**
+     * @var string
      * @ORM\Id
-     * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="uuid", unique=true)
+     * @ORM\GeneratedValue(strategy="CUSTOM")
+     * @ORM\CustomIdGenerator(class=UuidV4Generator::class)
      */
-    private $id;
+    private $id = UuidV4::class;
 
     /**
      * @var string
@@ -82,12 +86,13 @@ class Testimonial
     private $content;
 
     /**
-     * @return int|null
+     * @return string
      */
-    public function getId(): ?int
+    public function getId(): string
     {
         return $this->id;
     }
+
 
     /**
      * @return string|null
