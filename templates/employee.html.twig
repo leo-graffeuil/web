@@ -1,28 +1,24 @@
-<section id="fh5co-about" data-section="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">L'équipe</h2>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>« Un écosystème AGILE et MULTI-EXPERTISES qui apporte la palette complète des compétences
-                            nécessaires pour mettre en œuvre une TRAJECTOIRE POSITIVE, créatrice de valeurs durables en
-                            matière de DEVELOPPEMENT DURABLE ».</h3>
-                    </div>
+{{ encore_entry_link_tags('bootstrap-css') }}
+{% block header %}
+    <script src="https://use.fontawesome.com/df9f6dd7db.js"></script>
+{% endblock %}
+{% block content %}
+    {% include 'menu.html.twig' %}
+    {% for employee in employees %}
+        <div class="card-deck">
+            <div class="card w-auto">
+                <img src="/uploads/images/home/kiribati-home-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{ employee.firstName }} {{ employee.lastName }}</h5>
+                    <p class="card-text text-center"><small class="text-muted">{{ employee.job }}</small></p>
+                    <p class="card-text text-right">{{ employee.biography }}</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            {% for employee in employees %}
-                <div class="col-md-4">
-                    <div class="fh5co-person text-center to-animate">
-                        <h3>{{ employee.firstName }} {{ employee.lastName }}</h3>
-                        <span class="fh5co-position">{{ employee.job }}</span>
-                        <p>{{ employee.biography }}</p>
-
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+    {% endfor %}
+    {% include 'footer.html.twig' %}
+{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+    {{ encore_entry_script_tags('bootstrap') }}
+{% endblock %}

@@ -22,12 +22,10 @@ class HomeController extends AbstractController
     public function index(): Response
     {
         $articles = $this->getDoctrine()->getRepository(Article::class)->findBy([], [], 3);
-        $employees = $this->getDoctrine()->getRepository(Employee::class)->findAll();
         $testimonials = $this->getDoctrine()->getRepository(Testimonial::class)->findAll();
 
         return $this->render('base.html.twig', [
             'articles' => $articles,
-            'employees' => $employees,
             'testimonials' => $testimonials,
         ]);
     }

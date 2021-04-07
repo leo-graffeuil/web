@@ -26,8 +26,7 @@ class CommentType extends AbstractType
             ->add('pseudo')
             ->add('email', EmailType::class)
             ->add('content')
-            ->add('envoyer', SubmitType::class)
-        ;
+            ->add('envoyer', SubmitType::class);
     }
 
     /**

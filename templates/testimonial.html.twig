@@ -1,32 +1,20 @@
-<section id="fh5co-testimonials" data-section="testimonials">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Témoignages</h2>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>Ils en parlent mieux que nous</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            {% for testimonial in testimonials %}
+{{ encore_entry_link_tags('bootstrap-css') }}
 
-                <div class="col-md-4">
-                    <div class="box-testimony">
-                        <blockquote class="to-animate-2">
-                            <p>&ldquo;{{ testimonial.content }}&rdquo;</p>
-                        </blockquote>
-                        <div class="author to-animate">
-                            <p>
-                                {{ testimonial.name }} <span
-                                        class="subtext">{{ testimonial.job }}</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+{% block header %}
+    <!-- Icone dans l'encart "Contact Information" -->
+    <script src="https://use.fontawesome.com/df9f6dd7db.js"></script>
+{% endblock %}
+
+{% block body %}
+    <div class="d-flex justify-content-center">
+<h3 class="text-center">ILS ONT DIT</h3>
+    {% for testimonial in testimonials %}
+        <blockquote class="blockquote text-center">
+            <p class="mb-0 fa fa-comments"> {{ testimonial.content }}</p>
+            <footer class="blockquote-footer">{{ testimonial.name }}
+                <cite title="Source Title">{{ testimonial.job }}</cite></footer>
+        </blockquote>
+
+    {% endfor %}
     </div>
-</section>
+{% endblock %}

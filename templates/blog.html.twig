@@ -1,26 +1,23 @@
-<section id="fh5co-work" data-section="work">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-center">
-                <h2 class="to-animate">Blog</h2>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3>Découvrez nos derniers articles</h3>
+{{ encore_entry_link_tags('bootstrap-css') }}
+
+{% block content %}
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="card-group">
+                    <div class="card">
+                        {% for article in articles %}
+                            <div class="card-body">
+                                <h5 class="card-title"><a
+                                            href="{{ path('actualites_article', {'slug': article.slug}) }}">{{ article.title }}</a>
+                                </h5>
+                                <p class="card-text">{{ article.content }}</p>
+                                <p class="card-text"><small class="text-muted">{{ article.author }}</small></p>
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row row-bottom-padded-sm">
-            {% for article in articles %}
-                <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <h2><a href="{{ path('actualites_article', {'slug': article.slug}) }}">{{ article.title }}</a></h2>
-                        <img src="{{ article.featuredImage }}" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                            <h2>{{ article.title }}</h2>
-                            <span>{{ article.content }}</span>
-                        </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+    </section>
+{% endblock %}

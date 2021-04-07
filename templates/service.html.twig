@@ -1,44 +1,99 @@
+{{ encore_entry_link_tags('bootstrap-css') }}
+{{ encore_entry_link_tags('service') }}
 
-<section id="fh5co-services" data-section="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 section-heading text-left">
-                <h2 class=" left-border to-animate">Ce que l'on fait pour vous</h2>
-                <div class="row">
-                    <div class="col-md-8 subtext to-animate">
-                        <h3>Bien plus qu'un logiciel,
-                            une transformation au service de l'impact</h3>
+
+{% block body %}
+    <div class="container-service">
+        <div class="card">
+            <input type="radio" name="select" id="slide_1" checked>
+            <input type="radio" name="select" id="slide_2">
+            <input type="radio" name="select" id="slide_3">
+            <input type="radio" name="select" id="slide_4">
+            <input type="checkbox" id="slideImg">
+
+            <div class="slider">
+                <label for="slide_1" class="slide slide_1"></label>
+                <label for="slide_2" class="slide slide_2"></label>
+                <label for="slide_3" class="slide slide_3"></label>
+                <label for="slide_4" class="slide slide_4"></label>
+            </div>
+
+            <div class="inner_part">
+                <div class="content content_1">
+                    <div class="title fa fa-compass"> PILOTER</div>
+                    <div class="text">
+                        vos stratégies RSE et Climat de façon structuré et dynamique
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner_part">
+                <div class="content content_2">
+                    <div class="title fa fa-clipboard"> METTRE EN OEUVRE</div>
+                    <div class="text">
+                        un plan d'actions pour améliorer en continu vos performances extra-fiancières (à votre rythme!)
+                    </div>
+                </div>
+            </div>
+
+            <div class="inner_part">
+                <div class="content content_3">
+                    <div class="title fa fa-comments"> COMMUNIQUER</div>
+                    <div class="text">Clairement et facilement en externe, sur l'évolution de vos indicateurs-clés
+                    </div>
+                </div>
+            </div>
+            <div class="inner_part">
+                <div class="content content_4">
+                    <div class="title fa fa-thumbs-up"> ENGAGER</div>
+                    <div class="text">
+                        Une évolution vertueuse, de la réduction de vos impacts négatifs vers une activité à impact
+                        positif
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-6 fh5co-service to-animate">
-                <i class="icon to-animate-2 icon-users"></i>
-                <h3>Marque Employeur</h3>
-                <p>Votre entreprise gagne en attractivité et en image.</p>
-            </div>
-            <div class="col-md-6 col-sm-6 fh5co-service to-animate">
-                <i class="icon to-animate-2 icon-exclamation-triangle"></i>
-                <h3>Réduire Vos Risques</h3>
-                <p>Sécurisez votre chaîne de valeur : fournisseurs, collaborateurs et clients.</p>
-            </div>
-
-            <div class="clearfix visible-sm-block"></div>
-
-            <div class="col-md-6 col-sm-6 fh5co-service to-animate">
-                <i class="icon to-animate-2 icon-check-circle"></i>
-                <h3>Conformité</h3>
-                <p>Anticipez les
-                    réglementations : climat, social...
-                    Soyez prêt pour la DPEF</p>
-            </div>
-            <div class="col-md-6 col-sm-6 fh5co-service to-animate">
-                <i class="icon to-animate-2 icon-heart"></i>
-                <h3>Démarquez-vous</h3>
-                <p>Devenez une entreprise éco-innovante.</p>
-            </div>
-
-        </div>
     </div>
-</section>
+    <div>
+        <svg viewBox="0 0 1200 300">
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%">Toovalu en 5 étapes</text>
+            </symbol>
+
+            <g class = "g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+        </svg>
+        <ul class="process">
+            <li class="process__item">
+                <span class="process__number">1</span>
+                <span class="process__title">Choisissez</span>
+                <span class="process__subtitle">vos indicateurs issus des référentiels de votre secteur d’activité, ou entièrement personnalisés pour votre entreprise.</span>
+            </li>
+            <li class="process__item">
+                <span class="process__number">2</span>
+                <span class="process__title">Collectez</span>
+                <span class="process__subtitle">en toute fluidité en important vos données de façon automatique ou manuelle.</span>
+            </li>
+            <li class="process__item">
+                <span class="process__number">3</span>
+                <span class="process__title">Analysez</span>
+                <span class="process__subtitle">vos données en les faisant auditer et/ou en les comparant selon vos axes d’analyse.</span>
+            </li>
+            <li class="process__item">
+                <span class="process__number">4</span>
+                <span class="process__title">Editez</span>
+                <span class="process__subtitle">et partagez vos tableaux de bords et indicateurs-clés. Votre empreinte carbone et vos indicateurs clés RSE sont calculés automatiquement.</span>
+            </li>
+            <li class="process__item">
+                <span class="process__number">5</span>
+                <span class="process__title">Améliorez</span>
+                <span class="process__subtitle">en continu vos performances extra-financières, en pilotant vos plans d’actions et vos objectifs.</span>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

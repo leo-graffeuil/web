@@ -1,0 +1,20 @@
+{{ encore_entry_link_tags('bootstrap-css') }}
+{{ encore_entry_link_tags('menu') }}
+
+{% block header %}
+    <body>
+    <header>
+        <a href="{{ path('home') }}" class="logo">TOOVALU</a>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="{{ path('home') }}">Accueil</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Témoignages</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="{{ path('employee') }}">l'équipe</a></li>
+                <li><a href="{{ path('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    </body>
+{% endblock %}
