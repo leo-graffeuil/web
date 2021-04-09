@@ -1,10 +1,15 @@
 {{ encore_entry_link_tags('bootstrap-css') }}
 {{ encore_entry_link_tags('menu') }}
-
+{% block icone %}
+    <script src="https://use.fontawesome.com/df9f6dd7db.js"></script>
+{% endblock %}
 {% block header %}
     <body>
     <header>
+        <div class="circle">
+        </div>
         <a href="{{ path('home') }}" class="logo">TOOVALU</a>
+
         <nav class="site-nav">
             <ul>
                 <li><a href="{{ path('home') }}">Accueil</a></li>
