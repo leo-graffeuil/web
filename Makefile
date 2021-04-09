@@ -45,7 +45,7 @@ symfony-clear-cache:
 
 composer-install:
 	 rm -rf ./vendor/*
-	 composer install
+	 composer install --ignore-platform-reqs
 
 composer:
 	docker exec -ti php_apache_symfony bash

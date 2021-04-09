@@ -31,9 +31,9 @@ class ArticleController extends AbstractController
         $article = $this->getDoctrine()->getRepository(Article::class)->findOneBy(['slug' => $slug]);
         $comments = $this->getDoctrine()->getRepository(Comment::class)->findBy([
             'article' => $article,
-        ],['createdAt' => 'desc']);
+        ], ['createdAt' => 'desc']);
 
-        if(!$article){
+        if (!$article) {
             throw $this->createNotFoundException('L\'article n\'existe pas');
         }
 
@@ -55,7 +55,5 @@ class ArticleController extends AbstractController
             'article' => $article,
             'comments' => $comments,
         ]);
-
     }
-
 }

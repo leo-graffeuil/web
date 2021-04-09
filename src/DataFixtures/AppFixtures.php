@@ -8,6 +8,7 @@ use App\Entity\Category;
 use App\Entity\Contact;
 use App\Entity\Job;
 use App\Entity\Employee;
+use App\Entity\Partners;
 use App\Entity\Testimonial;
 use App\Entity\User;
 use bheller\ImagesGenerator\ImagesGeneratorProvider;
@@ -108,6 +109,18 @@ class AppFixtures extends Fixture
             $testimonial [$i]->setContent($faker->text);
 
             $manager->persist($testimonial [$i]);
+        }
+
+        $partner = [];
+        for ($i = 0; $i < 20; $i++) {
+            $partner [$i] = new Partners();
+            $partner [$i]->setCompanyName($faker->company);
+            $partner [$i]->setBiography($faker->text($maxNbChars = 200));
+            $partner [$i]->setWebsite($faker->url);
+            $partner [$i]->setFeaturedImage($faker->name);
+            $faker->addProvider(new ImagesGeneratorProvider($faker));
+
+            $manager->persist($partner [$i]);
         }
 
         $user = new User();
