@@ -1,21 +1,48 @@
 {{ encore_entry_link_tags('bootstrap-css') }}
 {{ encore_entry_link_tags('footer') }}
-
+{% block header %}
+    <script src="https://use.fontawesome.com/df9f6dd7db.js"></script>
+{% endblock %}
 {% block footer %}
-    <section id="lab_social_icon_footer">
-            <div class="text-center center-block">
-                <p>&copy; TOOVALU </p>
-                <div class="fa">
-                    <a href="https://twitter.com/ToovaluRSE"><i id="social-tw"
-                                                                class="fab fa-twitter-square fa-3x social"></i></a>
-                    <a href="https://www.linkedin.com/company/toovalu-sas/"><i id="social-lk"
-                                                                               class="fab fa-linkedin fa-3x social"></i></a>
-                    <a href="https://www.youtube.com/channel/UCNDVj-pdNZVUNekZ-RiW7AA/featured"><i
-                                id="social-yt"
-                                class="fab fa-youtube-square fa-3x social"></i></a>
-                    <a href="mailto:contact@toovalu.com"><i id="social-em"
-                                                            class="fas fa-envelope-square fa-3x social"></i></a>
+    <section class="">
+        <footer class="bg-secondary text-white text-center text-md-start">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase"></h5>
+
+                        <p>Moins de temps passé à collecter et analyser vos données, <br>c'est plus de temps pour mettre en
+                            oeuvre votre stratégie.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="{{ path('legales') }}" class="text-white">Mentions légales</a>
+                            </li>
+                            <li>
+                                <a href="http://www.charlottegoislot.fr/" class="text-white">Crédit photo : Charlotte
+                                    Goislot</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lab_social_icon_footer">
+                        <a href="https://twitter.com/ToovaluRSE"><i id="social-tw"
+                                                                    class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://www.linkedin.com/company/toovalu-sas/"><i id="social-lk"
+                                                                                   class="fa fa-linkedin fa-3x social"></i></a>
+                        <a href="https://www.youtube.com/channel/UCNDVj-pdNZVUNekZ-RiW7AA/featured"><i
+                                    id="social-yt"
+                                    class="fa fa-youtube-square fa-3x social"></i></a>
+                        <a href="mailto:contact@toovalu.com"><i id="social-em"
+                                                                class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
                 </div>
             </div>
+            <div class="text-center p-3 footer">
+                © 2020 Copyright:
+                <a class="text-white" href="https://toovalu.com/">Toovalu</a>
+            </div>
+        </footer>
     </section>
 {% endblock %}
