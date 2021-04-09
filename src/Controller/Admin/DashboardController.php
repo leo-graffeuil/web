@@ -8,6 +8,7 @@ use App\Entity\Category;
 use App\Entity\Contact;
 use App\Entity\Job;
 use App\Entity\Employee;
+use App\Entity\Partners;
 use App\Entity\Testimonial;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
@@ -36,6 +37,7 @@ class DashboardController extends AbstractDashboardController
             $category = $this->getDoctrine()->getRepository(Category::class)->count([]);
             $testimonial = $this->getDoctrine()->getRepository(Testimonial::class)->count([]);
             $job = $this->getDoctrine()->getRepository(Job::class)->count([]);
+            $partners = $this->getDoctrine()->getRepository(Partners::class)->count([]);
 
             return $this->render('Dashboard/index.html.twig', [
                 'contact' => $contact,
@@ -45,6 +47,7 @@ class DashboardController extends AbstractDashboardController
                 'category' => $category,
                 'testimonial' => $testimonial,
                 'job' => $job,
+                'partners' => $partners,
             ]);
         }
     }
@@ -81,8 +84,9 @@ class DashboardController extends AbstractDashboardController
             MenuItem::linkToCrud('Salariés', 'fa fa-users', Employee::class),
             MenuItem::linkToCrud('Métier', 'fa fa-briefcase', Job::class),
 
-            MenuItem::section('Témoignages'),
+            MenuItem::section('Partenaires - témoignages - clients'),
             MenuItem::linkToCrud('Témoignage', 'fa fa-comments', Testimonial::class),
+            MenuItem::linkToCrud('Partenaires', 'fa fa-handshake', Partners::class),
 
         ];
     }

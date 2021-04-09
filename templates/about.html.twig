@@ -1,0 +1,30 @@
+{{ encore_entry_link_tags('bootstrap-css') }}
+
+{% block body %}
+    {% include 'menu.html.twig' %}
+    <div class="d-flex justify-content-center">
+        <h3 class="text-center">ILS ONT DIT</h3>
+        {% for testimonial in testimonials %}
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 fa fa-comments"> {{ testimonial.content }}</p>
+                <footer class="blockquote-footer">{{ testimonial.name }}
+                    <cite title="Source Title">{{ testimonial.job }}</cite></footer>
+            </blockquote>
+
+        {% endfor %}
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <h3 class="text-center">NOS PARTENAIRES INSTITUTIONNELS ET ACADEMIQUES</h3>
+        {% for partner in partners %}
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 fa fa-comments"> {{ partner.companyName }}</p>
+                <footer class="blockquote-footer">{{ partner.biography }}
+                    <a href="{{ partner.website }}" title="Source Title"> {{ partner.website }}</a></footer>
+            </blockquote>
+
+        {% endfor %}
+    </div>
+{% endblock %}
+{% include 'footer.html.twig' %}
+}

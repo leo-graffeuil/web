@@ -2,38 +2,29 @@
 
 namespace App\Controller\Admin;
 
-use App\Entity\Article;
-use App\Entity\Contact;
-use Doctrine\ORM\Mapping\OneToMany;
+use App\Entity\Partners;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
-use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\BooleanField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\DateField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\DateTimeField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\EmailField;
-use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use Vich\UploaderBundle\Form\Type\VichImageType;
-use Vich\UploaderBundle\Mapping\Annotation\UploadableField;
 
 /**
- * Class ArticleCrudController
+ * Class PartnersCrudController
  *
  * @author Anais Sparesotto <a.sparesotto@icloud.com>
  */
-class ArticleCrudController extends AbstractCrudController
+class PartnersCrudController extends AbstractCrudController
 {
     /**
      * @return string
      */
     public static function getEntityFqcn(): string
     {
-        return Article::class;
+        return Partners::class;
     }
 
     /**
@@ -43,17 +34,15 @@ class ArticleCrudController extends AbstractCrudController
     public function configureFields(string $pageName): iterable
     {
         return [
-            TextField::new('title', 'Titre'),
-            TextField::new('content', 'Contenu'),
-            DateField::new('publicationDate', 'Date de publication')
-                ->setFormat('short'),
-            AssociationField::new('author', 'Auteur'),
-            AssociationField::new('category', 'Catégorie'),
+            TextField::new('companyName', 'Entreprise'),
+            TextareaField::new('biography', 'Présentation'),
+            TextField::new('website', 'Site Internet'),
             ImageField::new('featuredImage', 'Nom de l\'image')
-                ->setBasePath('uploads/images/articles')->onlyOnDetail(),
+                ->setBasePath('uploads/images/partners')->onlyOnDetail(),
             TextareaField::new('imageFile', 'Image')
-                ->setFormType(VichImageType::class),
-        ];
+                ->setFormType(VichImageType::class)
+                ->setTranslationParameters(['form.label.delete' => 'supprimer'])
+            ,];
     }
 
     /**
