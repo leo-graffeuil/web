@@ -8,8 +8,10 @@ use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
 use Faker\Provider\Text;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 
 /**
  * Class EmployeeCrudController
@@ -27,6 +29,17 @@ class EmployeeCrudController extends AbstractCrudController
     }
 
     /**
+     * @param Crud $crud
+     * @return Crud
+     */
+    public function configureCrud(Crud $crud): Crud
+    {
+        return $crud
+            ->addFormTheme('@FOSCKEditor/Form/ckeditor_widget.html.twig')
+            ;
+    }
+
+    /**
      * @param string $pageName
      * @return iterable
      */
@@ -36,7 +49,9 @@ class EmployeeCrudController extends AbstractCrudController
             TextField::new('firstName', 'Nom'),
             TextField::new('lastName', 'Prénom'),
             AssociationField::new('job', 'Métier'),
-            TextField::new('biography', 'Déscription'),
+            TextareaField::new('biography', 'Déscription')
+                ->setFormType(CKEditorType::class)
+                ->setFormTypeOptions(['config_name' => 'config_toovalu']),
         ];
     }
 

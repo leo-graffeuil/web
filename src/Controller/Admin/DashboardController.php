@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Entity\Article;
 use App\Entity\Author;
 use App\Entity\Category;
+use App\Entity\Comment;
 use App\Entity\Contact;
 use App\Entity\Job;
 use App\Entity\Employee;

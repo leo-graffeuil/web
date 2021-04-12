@@ -111,14 +111,9 @@ class Article
     private Category $category;
 
     /**
-     * @ORM\OneToMany(targetEntity=Comment::class, mappedBy="article")
-     */
-    private $comments;
-
-    /**
      * @ORM\Column(type="string", length=255)
      */
-    private $slug;
+    private ?string $slug;
 
     /**
      * Article constructor.
@@ -126,7 +121,6 @@ class Article
     public function __construct()
     {
         $this->updatedAt = new DateTime();
-        $this->comments = new ArrayCollection();
     }
 
     /**
@@ -291,39 +285,17 @@ class Article
     }
 
     /**
-     * @return Collection|Comment[]
+     * @return string|null
      */
-    public function getComments(): Collection
-    {
-        return $this->comments;
-    }
-
-    public function addComment(Comment $comment): self
-    {
-        if (!$this->comments->contains($comment)) {
-            $this->comments[] = $comment;
-            $comment->setArticle($this);
-        }
-
-        return $this;
-    }
-
-    public function removeComment(Comment $comment): self
-    {
-        if ($this->comments->removeElement($comment)) {
-            if ($comment->getArticle() === $this) {
-                $comment->setArticle(null);
-            }
-        }
-
-        return $this;
-    }
-
     public function getSlug(): ?string
     {
         return $this->slug;
     }
 
+    /**
+     * @param string $slug
+     * @return $this
+     */
     public function setSlug(string $slug): self
     {
         $this->slug = $slug;

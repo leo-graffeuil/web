@@ -10,6 +10,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 use Vich\UploaderBundle\Form\Type\VichImageType;
 
 /**
@@ -28,6 +29,17 @@ class PartnersCrudController extends AbstractCrudController
     }
 
     /**
+     * @param Crud $crud
+     * @return Crud
+     */
+    public function configureCrud(Crud $crud): Crud
+    {
+        return $crud
+            ->addFormTheme('@FOSCKEditor/Form/ckeditor_widget.html.twig')
+            ;
+    }
+
+    /**
      * @param string $pageName
      * @return iterable
      */
@@ -35,7 +47,9 @@ class PartnersCrudController extends AbstractCrudController
     {
         return [
             TextField::new('companyName', 'Entreprise'),
-            TextareaField::new('biography', 'Présentation'),
+            TextareaField::new('biography', 'Présentation')
+                ->setFormType(CKEditorType::class)
+                ->setFormTypeOptions(['config_name' => 'config_toovalu']),
             TextField::new('website', 'Site Internet'),
             ImageField::new('featuredImage', 'Nom de l\'image')
                 ->setBasePath('uploads/images/partners')->onlyOnDetail(),

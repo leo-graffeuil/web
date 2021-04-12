@@ -7,6 +7,7 @@
         "php": ">=7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-zip": "*",
         "bheller/images-generator": "^1.0",
         "composer/package-versions-deprecated": "1.11.99.1",
         "doctrine/annotations": "^1.12",
@@ -15,6 +16,7 @@
         "doctrine/orm": "^2.8",
         "easycorp/easyadmin-bundle": "^3.2",
         "friends-of-behat/mink": "^1.9",
+        "friendsofsymfony/ckeditor-bundle": "^2.3",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^6.1",
         "symfony/apache-pack": "^1.0",
@@ -45,6 +47,7 @@
         "symfony/web-link": "5.2.*",
         "symfony/webpack-encore-bundle": "^1.11",
         "symfony/yaml": "5.2.*",
+        "twig/extensions": "^1.5",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.0",
         "vich/uploader-bundle": "^1.17"

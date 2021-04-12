@@ -18,6 +18,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Field\IdField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\ImageField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 use Vich\UploaderBundle\Form\Type\VichImageType;
 use Vich\UploaderBundle\Mapping\Annotation\UploadableField;
 
@@ -44,7 +45,9 @@ class ArticleCrudController extends AbstractCrudController
     {
         return [
             TextField::new('title', 'Titre'),
-            TextField::new('content', 'Contenu'),
+            TextareaField::new('content', 'Contenu')
+                ->setFormType(CKEditorType::class)
+                ->setFormTypeOptions(['config_name' => 'config_toovalu']),
             DateField::new('publicationDate', 'Date de publication')
                 ->setFormat('short'),
             AssociationField::new('author', 'Auteur'),
@@ -54,6 +57,17 @@ class ArticleCrudController extends AbstractCrudController
             TextareaField::new('imageFile', 'Image')
                 ->setFormType(VichImageType::class),
         ];
+    }
+
+    /**
+     * @param Crud $crud
+     * @return Crud
+     */
+    public function configureCrud(Crud $crud): Crud
+    {
+        return $crud
+            ->addFormTheme('@FOSCKEditor/Form/ckeditor_widget.html.twig')
+            ;
     }
 
     /**

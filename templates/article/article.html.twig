@@ -1,29 +1,11 @@
+{{ encore_entry_link_tags('bootstrap-css') }}
+
+
 {% block body %}
-
-    <h1>{{ article.title }}</h1>
-    <p>{{ article.publicationDate|date }} - Commentaires : {{ comments|length }}</p>
-    <div>{{ article.content|raw }}</div>
-
-
-    {{ form_start(form) }}
-    <div class="col-md-6 to-animate">
-        <h3>Commentaires</h3>
-        <div class="form-group ">
-            <label for="pseudo" class="sr-only"></label>
-            {{ form_widget(form.pseudo, {'attr': {'placeholder': 'Pseudo'}}) }}
-            {{ form_errors(form.pseudo) }}
-        </div>
-        <div class="form-group ">
-            <label for=email" class="sr-only"></label>
-            {{ form_widget(form.email, {'attr': {'placeholder': 'Email'}}) }}
-            {{ form_errors(form.email) }}
-        </div>
-        <div class="form-group ">
-            <label for="message" class="sr-only">Message</label>
-            {{ form_widget(form.content, {'attr': {'placeholder': 'Message'}}) }}
-            {{ form_errors(form.content) }}
-        </div>
-    </div>
-    {{ form_end(form) }}
-
+    {% include 'menu.html.twig' %}
+    <div class="container">
+    <h1 class="text-center">{{ article.title }}</h1>
+    <p class="text-left">{{ article.publicationDate|date }}</p>
+    <div class="lead">{{ article.content|raw }}</div>
 {% endblock %}
+{% include 'footer.html.twig' %}

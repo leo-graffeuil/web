@@ -7,7 +7,9 @@ use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextareaField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 
 /**
  * Class TestimonialCrudController
@@ -25,6 +27,17 @@ class TestimonialCrudController extends AbstractCrudController
     }
 
     /**
+     * @param Crud $crud
+     * @return Crud
+     */
+    public function configureCrud(Crud $crud): Crud
+    {
+        return $crud
+            ->addFormTheme('@FOSCKEditor/Form/ckeditor_widget.html.twig')
+            ;
+    }
+
+    /**
      * @param string $pageName
      * @return iterable
      */
@@ -34,7 +47,9 @@ class TestimonialCrudController extends AbstractCrudController
             TextField::new('compagny', 'Entreprise'),
             TextField::new('name', 'Nom et Prénom'),
             TextField::new('job', 'Métier'),
-            TextField::new('content', 'témoignage'),
+            TextareaField::new('content', 'témoignage')
+                ->setFormType(CKEditorType::class)
+                ->setFormTypeOptions(['config_name' => 'config_toovalu']),
         ];
     }
 
