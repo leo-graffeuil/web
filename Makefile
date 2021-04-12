@@ -2,7 +2,7 @@
 # PROJECT
 # --------------------------------------------------------------------
 
-project: composer-install symfony-clear-cache docker-start console-doctrine-database-drop console-doctrine-database-create console-doctrine-schema-update fixtures
+project: composer-install symfony-clear-cache docker-start console-doctrine-database-create console-doctrine-schema-update fixtures
 
 project-start: composer-install symfony-clear-cache docker-start
 
@@ -79,6 +79,12 @@ phpCs:
 phpCbf:
 	 docker exec -ti php_apache_symfony vendor/bin/phpcbf
 
+
+# --------------------------------------------------------------------
+# NPM
+# --------------------------------------------------------------------
+npm:
+	npm run watch
 
 # --------------------------------------------------------------------
 # Fixtures

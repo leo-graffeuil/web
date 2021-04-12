@@ -1,4 +1,4 @@
-# Projet réalisé comme "test" pour TOOVALU
+# Site Web TOOVALU
 
 ### Déscription du projet  
 * Réalisation du site web de l'entreprise 
@@ -10,11 +10,12 @@
 ### Setup du projet 
 
 
-* git clone https://github.com/anais0210/toovalu.git
+* git clone https://github.com/toovalu/web.git
 
 #### Console Command pour démarrer le projet 
 
 make project
+make yarn
 
 * Le projet sera accesible à cet URL "http://0.0.0.0/"
 
@@ -39,11 +40,10 @@ make project
 ## TODO 
 
 * programmer la publication des articles
-* compteur de vue sur les articles et le site web 
-* gestion des commentaires des articles 
-* ajout d'une page listant les articles 
-* lire les articles dans une page dédié 
-
+* Front de la page partenaires 
+* Front de la page blog et des articles
+* Front de la page equipe 
+* Back office wysiwyg avec upload des images 
 
 
 
