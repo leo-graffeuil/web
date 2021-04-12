@@ -37,7 +37,7 @@ docker-clean-images:
 symfony-clear-cache:
 	 rm -rf ./var/cache/*
 	 rm -rf ./var/log/*
-	 php bin/console cache:clear --no-warmup
+	 docker exec -ti php_apache_symfony php bin/console cache:clear --no-warmup
 
 # --------------------------------------------------------------------
 # COMPOSER
