@@ -92,12 +92,3 @@ npm:
 
 fixtures:
 	 docker exec -ti php_apache_symfony php bin/console doctrine:fixtures:load -q
-
-# --------------------------------------------------------------------
-# TESTS BEHAT
-# --------------------------------------------------------------------
- # LA BASE DE DONNEE DE TEST ET STRICTEMENT LA MÊME QUE DEV
- #La commande supprime la base, la recréer, lance les fixtures et les tests behat
-
-behat: console-doctrine-database-drop console-doctrine-database-create console-doctrine-schema-update fixtures
-	docker exec -ti php_apache_symfony php vendor/bin/behat
