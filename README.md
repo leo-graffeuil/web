@@ -14,8 +14,8 @@
 
 #### Console Command pour démarrer le projet 
 
-make project
-make yarn
+* make project
+* make yarn
 
 * Le projet sera accesible à cet URL "http://0.0.0.0/"
 
@@ -31,11 +31,6 @@ make yarn
 * make phpCs
 * make phpStan
 * make phpPsalm
-
-#### Test Behat
-
-* make behat
-
 
 ## TODO 
 
