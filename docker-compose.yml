@@ -1,13 +1,12 @@
-version: '3.7'
+version: "3.7"
 services:
-
   php_apache_symfony:
     build:
       context: ./
       dockerfile: docker/php/dockerfile
     container_name: php_apache_symfony
     ports:
-      - 80:80
+      - 8082:80
     environment:
       SERVICE_NAME: php_apache_symfony
     volumes:
@@ -27,7 +26,7 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       SERVICE_NAME: postgres_symfony
     ports:
-      - 5432:5432
+      - 5435:5432
     volumes:
       - ./logs/postgres:/var/log/postgresql
 
@@ -35,6 +34,6 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 8085:8080
     links:
       - postgres_symfony
