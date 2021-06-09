@@ -1,0 +1,48 @@
+article {
+  header {
+    background: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 4rem 5rem;
+    margin-bottom: 6rem;
+    h1 {
+      font-weight: bold;
+      margin: 0;
+    }
+    a {
+      color: #fff;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+    .entry-meta {
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+  }
+
+  a {
+    font-weight: bold;
+  }
+}
+
+.sharing {
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  a {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: var(--pink);
+    display: flex;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      border: 0;
+      color: darken($pink, 10%);
+    }
+  }
+}

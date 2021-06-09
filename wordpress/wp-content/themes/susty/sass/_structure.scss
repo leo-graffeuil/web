@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+# Site
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+header#masthead {
+  display: flex;
+  align-items: center;
+  max-width: 69em;
+  margin: 1em auto;
+}
+
+header#masthead h1,
+header#masthead p {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+  flex: 1;
+  align-items: center;
+  margin: 0;
+}
+
+header#masthead a {
+  border-bottom: unset;
+}
+
+header#masthead > a {
+  font-weight: bold;
+}
+
+header#masthead > a > svg {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.logo {
+  flex: 0 0 20rem;
+  text-align: center;
+  line-height: 0;
+  margin-right: 0.5em;
+}
+
+.logo svg {
+  width: 2.4em;
+  height: 2.4em;
+}
+
+svg * {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-principal-container {
+  flex: 1;
+}
+
+#primary-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  li {
+    margin-left: 2rem;
+    color: var(--blue);
+    a {
+      color: var(--blue);
+      font-size: 0.9rem;
+      font-weight: bold;
+      padding: 1rem 0;
+      &:hover,
+      &:focus {
+        border-bottom: 1px solid var(--green);
+      }
+    }
+
+    &.btn-appel-action a {
+      background: var(--green);
+      color: var(--white);
+      border-radius: 2rem;
+      padding: 1rem 1rem 1rem 2rem;
+      border: 1px solid var(--green);
+      &::after {
+        content: "→";
+        font-size: 2rem;
+        padding-left: 1rem;
+        line-height: 0.5;
+      }
+      &:hover,
+      &:focus {
+        background: white;
+        border-bottom-width: 1px;
+        color: var(--green);
+      }
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+## Content
+--------------------------------------------------------------*/
+#content {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  .container {
+    max-width: 760px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+}
+
+.cat-links {
+  display: flex;
+  align-items: center;
+}
+
+.cat-links a:first-of-type {
+  margin-left: 0.5em;
+}
+
+.cat-links a,
+.comments-link a,
+.edit-link a {
+  padding: 0 0.5em;
+  margin: 0 0.5em 0 0;
+}
+
+#contactForm {
+  background: var(--green);
+  padding: 3rem;
+  form {
+    display: flex;
+
+    input {
+      flex-grow: 1;
+      background: #fff;
+      border-radius: 2rem;
+      padding: 1rem 4rem 1rem 2rem;
+    }
+    button {
+      margin-left: -4rem;
+    }
+  }
+}

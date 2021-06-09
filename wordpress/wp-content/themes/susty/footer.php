@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -8,24 +9,29 @@
  */
 ?>
 
-	</div>
+</div>
 
-	<footer id="colophon">
-		<a href="<?php echo esc_url( __( 'https://wordpress.org', 'susty' ) ); ?>">
-			<?php
-			/* translators: %s: CMS name, i.e. WordPress. */
-			printf( esc_html__( 'Proudly powered by %s', 'susty' ), 'WordPress' );
-			?>
-		</a>
-		<span> | </span>
-			<?php
-			/* translators: 1: Theme name, 2: Theme author. */
-			printf( esc_html__( 'Theme: %1$s by %2$s.', 'susty' ), '<a href="https://github.com/jacklenox/susty">Susty</a>', '<a href="https://blog.jacklenox.com">Jack&nbsp;Lenox</a>' );
-			?>
-	</footer>
+<footer>
+    <div id="contactForm" class="content">
+        <div class="container">
+            <form action="">
+                <input type="email" placeholder="Je m'abonne à la newsletter" id="email">
+                <button type="submit">Je m'abonne</button>
+            </form>
+        </div>
+    </div>
+
+    <?php
+    wp_nav_menu(array(
+        'theme_location' => 'menu-4',
+        'menu_id'        => 'secondary-menu',
+    ));
+    ?>
+</footer>
 </div>
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>

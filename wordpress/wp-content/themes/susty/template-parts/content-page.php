@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying page content in page.php
  *
@@ -10,31 +11,35 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header>
-		<?php the_title( '<h1>', '</h1>' ); ?>
+	<header class="content">
+		<div class="container">
+			<?php the_title('<h1>', '</h1>'); ?>
+		</div>
 	</header><!-- .entry-header -->
 
 	<?php susty_wp_post_thumbnail(); ?>
 
-	<div>
-		<?php
-		the_content();
+	<div class="content">
+		<div class="container">
+			<?php
+			the_content();
 
-		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'susty' ),
-			'after'  => '</div>',
-		) );
-		?>
+			wp_link_pages(array(
+				'before' => '<div class="page-links">' . esc_html__('Pages:', 'susty'),
+				'after'  => '</div>',
+			));
+			?>
+		</div>
 	</div>
 
-	<?php if ( get_edit_post_link() ) : ?>
+	<?php if (get_edit_post_link()) : ?>
 		<footer>
 			<?php
 			edit_post_link(
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'susty' ),
+						__('Edit <span class="screen-reader-text">%s</span>', 'susty'),
 						array(
 							'span' => array(
 								'class' => array(),
