@@ -175,6 +175,7 @@ input[type="submit"] {
   }
   &:hover,
   &:focus {
+    cursor: pointer;
     background: white;
     border-bottom-width: 1px;
     color: var(--blue);

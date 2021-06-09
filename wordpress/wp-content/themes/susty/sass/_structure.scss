@@ -96,6 +96,17 @@ svg * {
   }
 }
 
+@media (max-width: 800px) {
+  header#masthead,
+  #primary-menu {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 /*--------------------------------------------------------------
 ## Content
 --------------------------------------------------------------*/
@@ -135,7 +146,8 @@ svg * {
   padding: 3rem;
   form {
     display: flex;
-
+    width: 760px;
+    flex-shrink: 1;
     input {
       flex-grow: 1;
       background: #fff;
@@ -144,6 +156,66 @@ svg * {
     }
     button {
       margin-left: -4rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #contactForm form {
+    width: auto;
+    flex-wrap: wrap;
+    button {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+#subfooter {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  .col-2 {
+    flex: 2;
+  }
+}
+
+#footer-menu {
+  list-style: none;
+  display: flex;
+
+  margin: 0 0 0.5rem 0;
+
+  padding: 0;
+  a {
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+}
+
+#footer_legal {
+  font-weight: 300;
+  color: var(--black);
+  font-size: 0.9rem;
+}
+
+#footer_sharing {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  margin: 0 2rem 0 5rem;
+  border-right: 1px solid #ccc;
+  li {
+    border-left: 1px solid #ccc;
+  }
+  a {
+    color: var(--blue);
+    padding: 1rem 3rem 1rem 2rem;
+    display: block;
+    span {
+      font-size: 2rem;
     }
   }
 }
