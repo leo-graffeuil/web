@@ -11,6 +11,9 @@ article {
     }
     a {
       color: #fff;
+      &:visited {
+        color: #fff;
+      }
       &:hover,
       &:focus {
         text-decoration: none;
@@ -44,5 +47,13 @@ article {
       border: 0;
       color: darken($pink, 10%);
     }
+  }
+}
+
+.wp-block-columns.fullgrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  .wp-block-column {
+    margin: 0;
   }
 }

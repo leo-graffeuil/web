@@ -116,6 +116,8 @@ hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
+  width: 500px;
+  margin: 4rem auto;
 }
 
 ul {
@@ -159,12 +161,14 @@ table {
 button,
 input[type="button"],
 input[type="reset"],
-input[type="submit"] {
+input[type="submit"],
+a.btn {
+  --current: var(--blue);
   border-radius: 2rem;
-  padding: 1rem 2rem;
-  background: var(--blue);
+  padding: 1rem 1rem 1rem 2rem;
+  background: var(--current);
   color: var(--white);
-  border: 1px solid var(--blue);
+  border: 1px solid var(--current);
   font-weight: bold;
   font-size: 1rem;
   &::after {
@@ -178,7 +182,13 @@ input[type="submit"] {
     cursor: pointer;
     background: white;
     border-bottom-width: 1px;
-    color: var(--blue);
+    color: var(--current);
+  }
+  &.btn--green {
+    --current: var(--green);
+  }
+  &.btn--pink {
+    --current: var(--pink);
   }
 }
 
@@ -372,4 +382,44 @@ a:active {
       font-style: normal;
     }
   }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.bg-green {
+  background: var(--green);
+  color: var(--white);
+}
+.bg-blue {
+  background: var(--blue);
+  color: var(--white);
+}
+.bg-pink {
+  background: var(--pink);
+  color: var(--white);
+}
+.bg-yellow {
+  background: var(--yellow);
+  color: var(--white);
 }

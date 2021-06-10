@@ -124,6 +124,10 @@ svg * {
     flex-shrink: 1;
   }
 }
+.content--green {
+  background: var(--green);
+  color: var(--white);
+}
 
 .cat-links {
   display: flex;

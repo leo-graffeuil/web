@@ -63,10 +63,7 @@
 				'after'  => '</div>',
 			));
 			?>
+			<?php susty_wp_entry_footer(); ?>
 		</div>
 	</div>
-
-	<footer>
-		<?php susty_wp_entry_footer(); ?>
-	</footer>
 </article><!-- #post-<?php the_ID(); ?> -->
