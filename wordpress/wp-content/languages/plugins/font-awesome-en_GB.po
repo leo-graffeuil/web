@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Font Awesome - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-06 17:00:50+0000\n"
+"PO-Revision-Date: 2021-05-05 16:27:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Font Awesome - Stable (latest release)\n"
+
+#: includes/class-fontawesome-exception.php:439
+msgid "Eek! We're missing the information we need to load the version of Font Awesome you have selected. Go to your Font Awesome plugin settings page, re-select a version, and save. If that doesn't work, try deactivating and then re-activating the plugin. If that doesn't work either, you might need to delete and re-install the plug-in."
+msgstr "Eek! We're missing the information we need to load the version of Font Awesome you have selected. Go to your Font Awesome plugin settings page, re-select a version, and save. If that doesn't work, try deactivating and then re-activating the plugin. If that doesn't work either, you might need to delete and re-install the plugin."
 
 #: includes/class-fontawesome-exception.php:551
 msgid "Failed during upgrade when trying to delete the main Font Awesome option."
@@ -51,6 +55,14 @@ msgstr "We were not able to save conflict detection data to your WordPress datab
 #: includes/class-fontawesome-exception.php:494
 msgid "Inconceivable! Somehow the conflict detection information got garbled into something we can't understand."
 msgstr "Oops! Somehow the conflict detection information got garbled into something we can't understand."
+
+#: includes/class-fontawesome-exception.php:468
+msgid "When trying to load Font Awesome, the plugin's configuration was invalid. Try deactivating, uninstalling, and re-activating the Font Awesome plugin."
+msgstr "When trying to load Font Awesome, the plugin's configuration was invalid. Try deactivating, uninstalling, and re-activating the Font Awesome plugin."
+
+#: includes/class-fontawesome-exception.php:415
+msgid "Something went wrong when we tried to store the list of available Font Awesome versions in your WordPress database."
+msgstr "Something went wrong when we tried to store the list of available Font Awesome versions in your WordPress database."
 
 #: includes/class-fontawesome-exception.php:390
 msgid "An unexpected response was received from the Font Awesome API server."
@@ -104,15 +116,15 @@ msgstr "Whoops, it looks like you have not provided a Font Awesome API Token. En
 msgid "You've got more than one version of the Font Awesome plugin installed."
 msgstr "You've got more than one version of the Font Awesome plugin installed."
 
-#: includes/class-fontawesome.php:837
-msgid "Great Scott!"
-msgstr "Great Scott!"
-
 #. translators: 1: path to plugin or theme code file 2: current Font Awesome
 #. plugin version number
 #: includes/class-fontawesome.php:841
 msgid "The active version of the Font Awesome plugin is being loaded by this plugin or theme: %1$s since it's the newest (%2$s). We recommend you update the plugin above to the latest version. In the meantime, we'll use that newer version for editing your Font Awesome settings so you'll be sure to hit 88mph with those icons."
 msgstr "The active version of the Font Awesome plugin is being loaded by this plugin or theme: %1$s since it's the newest (%2$s). We recommend you update the plugin above to the latest version. In the meantime, we'll use that newer version for editing your Font Awesome settings so you'll be sure to hit 100mph with those icons."
+
+#: includes/class-fontawesome.php:837
+msgid "Great Scott!"
+msgstr "Great Scott!"
 
 #. translators: label for link to settings page on plugin listing
 #: includes/class-fontawesome.php:817
@@ -123,6 +135,11 @@ msgstr "Settings"
 #: includes/class-fontawesome.php:798
 msgid "Font Awesome Settings"
 msgstr "Font Awesome Settings"
+
+#. translators: 1: detected icon name 2: literal icon shortcode
+#: includes/class-fontawesome.php:739
+msgid "Looks like you're using an %2$s shortcode with an old Font Awesome 3 icon name: %1$s. We're phasing those out, so it will stop working on your site soon."
+msgstr "Looks like you're using an %2$s shortcode with an old Font Awesome 3 icon name: %1$s. We're phasing those out, so it will stop working on your site soon."
 
 #: includes/class-fontawesome.php:733
 msgid "Hey there, from the Font Awesome plugin!"

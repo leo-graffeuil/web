@@ -2,7 +2,7 @@
 /**
  * The main template file
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link    https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Susty
  */
@@ -10,44 +10,37 @@
 get_header();
 ?>
 
-	<div id="primary">
-		<main id="main">
+<div id="primary">
+    <main id="main">
+        <div class="pb-6">
+            <h2 class="text-center">Retrouvez tous nos <em>conseils</em><br>
+                pratiques, et nos <em>convictions</em></h2>
+            <p class="text-center"></p>
+        </div>
+       <?php if (have_posts()) : while (have_posts()) :
+            the_post(); ?>
 
-		<?php
-		if ( have_posts() ) :
+            <article class="">
+                <div class="flex-center flex-align-items">
+                    <div class="mr-15"<?php the_post_thumbnail(); ?></div>
+                <?php if (has_post_thumbnail()) {
+                    the_post_thumbnail();
+                }
+                ?>
+                <div class="pt-2 pb-4 mr-15rem ml-10rem">
+                    <p>
+                        Publié le <?php the_time('j F Y'); ?>
+                    </p>
+                    <h3 class="mb-4"><?php the_title(); ?></h3>
+                    <?php the_excerpt(); ?>
+                    <div class="mb-4">
+                    <a href="<?php the_permalink(); ?>" class="btn">Lire la suite</a>
+                    </div>
+                </div>
+            </article>
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-				
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else:
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-		</main>
-	</div>
-
-<?php
-get_footer();
+       <?php endwhile;
+        endif; ?>
+    </main>
+</div>
+<?php get_footer(); ?>
