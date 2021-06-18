@@ -7,11 +7,11 @@ services:
       - ./config/php.conf.ini:/usr/local/etc/php/conf.d/php.ini
       - ${WORDPRESS_DATA_DIR:-./wordpress}:/var/www/html
     environment:
-      - WORDPRESS_DB_NAME=toovalu
+      - WORDPRESS_DB_NAME=${MYSQL_ADDON_DB}
       - WORDPRESS_TABLE_PREFIX=${WORDPRESS_TABLE_PREFIX:-wp_}
-      - WORDPRESS_DB_HOST=mysql
-      - WORDPRESS_DB_USER=toovalu
-      - WORDPRESS_DB_PASSWORD=password
+      - WORDPRESS_DB_HOST=${MYSQL_ADDON_HOST}
+      - WORDPRESS_DB_USER=${MYSQL_ADDON_USER}
+      - WORDPRESS_DB_PASSWORD=${MYSQL_ADDON_PASSWORD}
     depends_on:
       - mysql
       - phpmyadmin
@@ -30,10 +30,10 @@ services:
     volumes:
       - ./mysql/:/docker-entrypoint-initdb.d/
     environment:
-      - MYSQL_ROOT_PASSWORD=passwod
-      - MYSQL_USER=toovalu
-      - MYSQL_PASSWORD=password
-      - MYSQL_DATABASE=toovalu
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ADDON_PASSWORD}
+      - MYSQL_USER=${MYSQL_ADDON_USER}
+      - MYSQL_PASSWORD=${MYSQL_ADDON_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_ADDON_DB}
 
   phpmyadmin:
     depends_on:
