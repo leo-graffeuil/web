@@ -1,0 +1,225 @@
+/*--------------------------------------------------------------
+# Site
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+header#masthead {
+  display: flex;
+  align-items: center;
+  max-width: 69em;
+  margin: 1em auto;
+}
+
+header#masthead h1,
+header#masthead p {
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: bold;
+  flex: 1;
+  align-items: center;
+  margin: 0;
+}
+
+header#masthead a {
+  border-bottom: unset;
+}
+
+header#masthead > a {
+  font-weight: bold;
+}
+
+header#masthead > a > svg {
+  width: 1.8em;
+  height: 1.8em;
+}
+
+.logo {
+  flex: 0 0 20rem;
+  text-align: center;
+  line-height: 0;
+  margin-right: 0.5em;
+}
+
+.logo svg {
+  width: 2.4em;
+  height: 2.4em;
+}
+
+svg * {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-principal-container {
+  flex: 1;
+}
+
+#primary-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  li {
+    margin-left: 2rem;
+    color: var(--blue);
+    a {
+      color: var(--blue);
+      font-size: 0.9rem;
+      font-weight: bold;
+      padding: 1rem 0;
+      &:hover,
+      &:focus {
+        border-bottom: 1px solid var(--green);
+      }
+    }
+
+    &.btn-appel-action a {
+      background: var(--green);
+      color: var(--white);
+      border-radius: 2rem;
+      padding: 1rem 1rem 1rem 2rem;
+      border: 1px solid var(--green);
+      &::after {
+        content: "→";
+        font-size: 2rem;
+        padding-left: 1rem;
+        line-height: 0.5;
+      }
+      &:hover,
+      &:focus {
+        background: white;
+        border-bottom-width: 1px;
+        color: var(--green);
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  header#masthead,
+  #primary-menu {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+## Content
+--------------------------------------------------------------*/
+#content {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  .container {
+    max-width: 760px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+}
+.content--green {
+  background: var(--green);
+  color: var(--white);
+}
+
+.cat-links {
+  display: flex;
+  align-items: center;
+}
+
+.cat-links a:first-of-type {
+  margin-left: 0.5em;
+}
+
+.cat-links a,
+.comments-link a,
+.edit-link a {
+  padding: 0 0.5em;
+  margin: 0 0.5em 0 0;
+}
+
+#contactForm {
+  background: var(--green);
+  padding: 3rem;
+  form {
+    display: flex;
+    width: 760px;
+    flex-shrink: 1;
+    input {
+      flex-grow: 1;
+      background: #fff;
+      border-radius: 2rem;
+      padding: 1rem 4rem 1rem 2rem;
+    }
+    button {
+      margin-left: -4rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #contactForm form {
+    width: auto;
+    flex-wrap: wrap;
+    button {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+#subfooter {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  .col-2 {
+    flex: 2;
+  }
+}
+
+#footer-menu {
+  list-style: none;
+  display: flex;
+
+  margin: 0 0 0.5rem 0;
+
+  padding: 0;
+  a {
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+}
+
+#footer_legal {
+  font-weight: 300;
+  color: var(--black);
+  font-size: 0.9rem;
+}
+
+#footer_sharing {
+  list-style: none;
+  display: flex;
+  flex: 1;
+  margin: 0 2rem 0 5rem;
+  border-right: 1px solid #ccc;
+  li {
+    border-left: 1px solid #ccc;
+  }
+  a {
+    color: var(--blue);
+    padding: 1rem 3rem 1rem 2rem;
+    display: block;
+    span {
+      font-size: 2rem;
+    }
+  }
+}
