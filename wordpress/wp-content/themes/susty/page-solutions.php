@@ -121,55 +121,56 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="content pt-6">
+            <div class="content">
                 <div class="container pt-2 pb-2">
+                    <h2 class="text-center">L'outil qui vous emmène <em>au-delà</em> du reporting</h2>
                     <div>
-                        <div class="flex-space-around">
-                            <p>Tableau de bord dynamique</p>
-                            <p>Vos axes stratégiques</p>
-                            <p>Vos indicateurs de pilotage</p>
+                        <div class="flex-space-around pb-2">
+                            <a href="#dynamique">Tableau de bord dynamique</a>
+                            <a href="#collecte">Vos axes stratégiques</a>
+                            <a href="#analyse">Vos indicateurs de pilotage</a>
                         </div>
                         <div class="carousel">
                             <ul class="slides">
                                 <input type="radio" name="radio-buttons" id="img-1" checked/>
-                                <li class="slide-container">
+                                <li class="slide-container" id="dynamique">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/image-1.png">
+                                        <img src="/wp-content/uploads/2021/06/image-5-1.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-3" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png"</span>
                                         </label>
                                         <label for="img-2" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
                                 <input type="radio" name="radio-buttons" id="img-2"/>
-                                <li class="slide-container">
+                                <li class="slide-container" id="collecte">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-02-à-10.51.58.png">
+                                        <img src="/wp-content/uploads/2021/06/image-6-1.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-1" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
                                         </label>
                                         <label for="img-3" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
                                 <input type="radio" name="radio-buttons" id="img-3"/>
-                                <li class="slide-container">
+                                <li class="slide-container" id="analyse">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-16-à-19.50.52.png">
+                                        <img src="/wp-content/uploads/2021/06/image-4.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-2" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
                                         </label>
                                         <label for="img-1" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
@@ -188,7 +189,7 @@ get_header();
             </div>
             <div class="grid2 height-solutions pb-4">
                 <div class="bg-green">
-                    <div class="flex-center flex-align-items pt-6">
+                    <div class="flex-center flex-align-items pt-4">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/Groupe-105.png" alt="">
                         <p class="mb-0"><strong>MOINS</strong> de temps<br> passé à collecter<br> et analyser
                             vos
@@ -196,7 +197,7 @@ get_header();
                     </div>
                 </div>
                 <div class="bg-pink">
-                    <div class="flex-center flex-align-items pt-6">
+                    <div class="flex-center flex-align-items pt-4">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/Groupe-110.png" alt="">
                         <p class="mb-0">c’est <strong>PLUS</strong> de temps<br> pour mettre en œuvre votre<br>
                             stratégie.<strong></strong></p>

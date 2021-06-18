@@ -52,42 +52,42 @@ get_header();
                                 <input type="radio" name="radio-buttons" id="img-1" checked/>
                                 <li class="slide-container" id="dynamique">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/image-1.png">
+                                        <img src="/wp-content/uploads/2021/06/image-6-2.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-3" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png"</span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png"</span>
                                         </label>
                                         <label for="img-2" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
                                 <input type="radio" name="radio-buttons" id="img-2"/>
                                 <li class="slide-container" id="collecte">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-02-à-10.51.58.png">
+                                        <img src="/wp-content/uploads/2021/06/image-3.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-1" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
                                         </label>
                                         <label for="img-3" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
                                 <input type="radio" name="radio-buttons" id="img-3"/>
                                 <li class="slide-container" id="analyse">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-16-à-19.50.52.png">
+                                        <img src="/wp-content/uploads/2021/06/image-4.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-2" class="prev-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow-1.png" </span>
                                         </label>
                                         <label for="img-1" class="next-slide">
-                                            <span><img src="/wp-content/uploads/2021/06/right-arrow.png"></span>
+                                            <span><img class="wt-2" src="/wp-content/uploads/2021/06/right-arrow.png"></span>
                                         </label>
                                     </div>
                                 </li>
