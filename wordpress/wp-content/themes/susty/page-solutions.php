@@ -19,7 +19,7 @@ get_header();
     <div id="primary" xmlns="http://www.w3.org/1999/html">
         <main id="main">
             <div class="content banniere">
-                <img src="/wp-content/uploads/2021/06/1_Claims_ConcentréTech_Penseur-1.png" alt="">
+                <img class="wdt-100" src="/wp-content/uploads/2021/06/1024x450px_Concentre_de_technologie_pour_entreprises_conscientes.png" alt="">
             </div>
             <div class="container">
             </div>
@@ -30,11 +30,11 @@ get_header();
             <div class="grid2 mt-7">
                 <div class="grid_fullcell">
                     <div class="">
-                        <img src="/wp-content/uploads/2021/04/toovalu-equipe-presentation.jpeg" alt="">
+                        <img src="/wp-content/uploads/2021/06/SOL_-scaled.jpeg" alt="">
                     </div>
                 </div>
                 <div>
-                    <h2 class="text-center pb-2">Vous <em>êtes</em></h2>
+                    <h2 class="text-center pb-2"><em>Vous êtes</em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
                         <p class="mb-0 mr-3">Concerné par l’empreinte carbone de votre entreprise ou par la DPEF. Peut-être avez-vous déjà̀ structuré votre stratégie RSE/Climat
@@ -76,41 +76,14 @@ get_header();
                 </div>
                 <div class="grid_fullcell">
                     <div class="">
-                        <img src="/wp-content/uploads/2021/04/toovalu-equipe-presentation.jpeg" alt="">
+                        <img src="/wp-content/uploads/2021/06/Toovalu_Reportage_6-scaled.jpeg" alt="">
                     </div>
                 </div>
             </div>
             <div class="text-center pt-2">
                 <img src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
             </div>
-            <div class="grid2 mt-7">
-                <div class="grid_fullcell">
-                    <div class="">
-                        <img src="/wp-content/uploads/2021/04/toovalu-equipe-presentation.jpeg" alt="">
-                    </div>
-                </div>
-                <div>
-                    <h2 class="text-center pb-2">Toovalu est fait <br><em>pour vous !</em></h2>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière <br>(aujourd’hui,
-                            c’est le bazar, y’en a
-                            partout !)
-                            </strong></p>
-                    </div>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Gagner</strong> du temps à la collecte, l’audit et l’exploitation des
-                            données.
-                        </p>
-                    </div>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0">Intégrer le <strong>pilotage de votre RSE</strong> dans vos instances
-                            décisionnelles.</p>
-                    </div>
-                </div>
-            </div>
+            <h2 class="text-center pb-2">Toovalu est fait <br><em>pour vous !</em></h2>
             <div class="content">
                 <div class="container pt-2 pb-2">
                     <h2 class="text-center">L'outil qui vous emmène <em>au-delà</em> du reporting</h2>

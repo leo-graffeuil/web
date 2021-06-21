@@ -33,7 +33,7 @@ get_header();
                 </div>
             </div>
             <div class="content">
-                <img class="text-center" src="/wp-content/uploads/2021/06/Claim_Enfant.png" alt="">
+                <img class="text-center wdt-100" src="/wp-content/uploads/2021/06/1024x512px_Votre_empreinte_carbone_va_en_prendre_un_coup.png" alt="">
             </div>
             <div class="content">
                 <div class="container pt-2 pb-2">
@@ -133,28 +133,31 @@ get_header();
             </div>
             <div class="grid4">
                 <div class="bg-blue">
-                    <h3 class="text-center"><span>UN BILAN</span></h3<br>
-                    <p class="text-center ff-light"><em>carbone qui voit loin!</em></p>
+                    <h3 class="text-center"><span>UN BILAN CARBONE</span></h3<br>
+                    <p class="text-center ff-light"> qui voit loin!</p>
                 </div>
                 <div  class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_BC-scaled.jpg" alt="">
                 </div>
                 <div class="bg-pink">
-                    <h3 class="text-center"><span>Construire une trajectoire <br><em>bas-carbone</em></span></h3><br>
+                    <h3 class="text-center"><span>Construire votre trajectoire</span></h3>
+                    <h4>bas-carbone</h4>
                 </div>
                 <div class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_Trajectoire.jpg" alt="">
                 </div>
                 <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/06/966-1125-max.jpeg" alt="">
+                    <img src="/wp-content/uploads/2021/06/HP_TT_Piloter-copie-retouch.jpg" alt="">
                 </div>
                 <div class="bg-yellow">
-                    <h3 class="text-center">Pilotez en toute <br><em>sérénité!</em></h3>
+                    <h3 class="text-center"><span>Pilotez vos stratégie</span></h3>
+                    <h4>en toute sérénité!</h4>
                 </div>
                 <div class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_Construction.jpg" alt="">
                 </div>
                 <div class="bg-green">
+                    <h4>Un outil</h4>
                     <h3 class="text-center">Collaboratif et Engagé</h3>
                     <p class="text-center"><em></em></p>
                 </div>
@@ -163,7 +166,7 @@ get_header();
             <div class="content content">
                 <div class="container">
                     <div class="wp-block-columns mb-0">
-                        <div class="wp-block-column">
+                        <div class="wp-block-column flex-align-items">
                             <img src="/wp-content/uploads/2021/06/BCORP_logo.png" alt="">
                         </div>
                         <div class="wp-block-column" style="flex-basis: 66%;">
