@@ -28,7 +28,7 @@ get_header();
                         bas-carbone <span class="color-green">/</span>
                         impact <span class="color-green">/</span>
                         entreprise à mission <span class="color-green">/</span>
-                        résiliance
+                        résilience
                     </p>
                 </div>
             </div>
