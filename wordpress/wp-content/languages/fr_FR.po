@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-07 21:07:25+0000\n"
+"PO-Revision-Date: 2021-06-16 20:34:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11849,7 +11849,7 @@ msgstr "Créer"
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:882
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
-msgstr "%s dépasse la limite d’envoi pour l’outil de mise ne ligne multiple utilisé avec votre navigateur."
+msgstr "%s dépasse la limite de téléversement pour l’outil de téléversement multiple utilisé avec votre navigateur."
 
 #. translators: %s: File name.
 #. translators: %s: Name of the file that failed to upload.
@@ -11890,7 +11890,7 @@ msgstr "À propos de WordPress"
 #. translators: %s: File name.
 #: wp-includes/script-loader.php:867
 msgid "%s exceeds the maximum upload size for this site."
-msgstr "%s dépasse la limite d’envoi de ce site."
+msgstr "%s dépasse la limite de téléversement de ce site."
 
 #: wp-includes/admin-bar.php:194
 msgid "Feedback"
@@ -13306,7 +13306,7 @@ msgstr "En cours de traitement…"
 
 #: wp-includes/script-loader.php:886
 msgid "Upload stopped."
-msgstr "L’envoi est stoppé."
+msgstr "Téléversement stoppé."
 
 #: wp-includes/script-loader.php:884
 msgid "Security error."
@@ -13318,7 +13318,7 @@ msgstr "Erreur I/O (entrées-sorties)."
 
 #: wp-includes/script-loader.php:878 wp-admin/includes/ajax-actions.php:2469
 msgid "Upload failed."
-msgstr "L’envoi a échoué."
+msgstr "Le téléversement a échoué."
 
 #: wp-includes/script-loader.php:875
 msgid "You may only upload 1 file."

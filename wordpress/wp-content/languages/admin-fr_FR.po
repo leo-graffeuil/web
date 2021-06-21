@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-08 07:36:44+0000\n"
+"PO-Revision-Date: 2021-06-16 20:17:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4339,7 +4339,7 @@ msgstr "Affichage des informations liées aux secteurs soumis à des régulation
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:641
 msgid "If your web site provides a service which includes automated decision making - for example, allowing customers to apply for credit, or aggregating their data into an advertising profile - you must note that this is taking place, and include information about how that information is used, what decisions are made with that aggregated data, and what rights users have over decisions made without human intervention."
-msgstr "Si votre site fourni un service qui inclus la prise de décision automatisée – par exemple, autoriser vos clients à souscrire à un crédit ou agréger leurs données dans un profil publicitaire – vous devez expliciter ce qui est mis en place et inclure des informations sur la façon dont les informations sont utilisées, quelles décisions sont prises avec ces données agrégées et quels sont les droits dont disposent les personnes sur les décisions prises sans intervention humaine."
+msgstr "Si votre site fournit un service qui inclut la prise de décision automatisée – par exemple, autoriser vos clients à souscrire à un crédit ou agréger leurs données dans un profil publicitaire – vous devez expliciter ce qui est mis en place et inclure des informations sur la façon dont les informations sont utilisées, quelles décisions sont prises avec ces données agrégées et quels sont les droits dont disposent les personnes sur les décisions prises sans intervention humaine."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:639
@@ -4349,7 +4349,7 @@ msgstr "Opérations de marketing automatisé et/ou de profilage réalisées à l
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:634
 msgid "If your web site receives data about users from third parties, including advertisers, this information must be included within the section of your privacy policy dealing with third party data."
-msgstr "Si votre site reçoit des données personnelles depuis des sources tierces – ce qui inclus les sources publicitaires – ces informations doivent être incluses dans la section sur les données issues de sources tierces de votre déclaration de protection de la vie privée."
+msgstr "Si votre site reçoit des données personnelles depuis des sources tierces – ce qui inclut les sources publicitaires – ces informations doivent être incluses dans la section sur les données issues de sources tierces de votre déclaration de protection de la vie privée."
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:632
@@ -9349,7 +9349,7 @@ msgstr "Une fois que vous avez généré une liste de thèmes, vous pouvez les p
 
 #: wp-admin/includes/media.php:3038
 msgid "You are using the browser&#8217;s built-in file uploader. The WordPress uploader includes multiple file selection and drag and drop capability. <a href=\"#\">Switch to the multi-file uploader</a>."
-msgstr "Vous utilisez l’outil de téléversement du navigateur. Le nouvel outil de téléversement de WordPress inclus la possibilité de téléverser plusieurs fichiers à la fois par glisser/déposer. <a href=\"#\">Passer au nouvel outil de téléversement</a>."
+msgstr "Vous utilisez l’outil de téléversement du navigateur. Le nouvel outil de téléversement de WordPress inclut la possibilité de téléverser plusieurs fichiers à la fois par glisser/déposer. <a href=\"#\">Passer au nouvel outil de téléversement</a>."
 
 #. translators: %s: Theme name.
 #: wp-admin/includes/class-wp-theme-install-list-table.php:336
@@ -10101,7 +10101,7 @@ msgstr "Vous disposez de plusieurs méthodes pour envoyer du contenu. Cet écran
 
 #: wp-admin/options-media.php:22
 msgid "Uploading Files allows you to choose the folder and path for storing your uploaded files."
-msgstr "« Envoi de fichiers » vous permet de choisir le dossier et le chemin de stockage de vos fichiers téléversés."
+msgstr "L’option « Téléversement des médias » vous permet de choisir le dossier et le chemin de stockage de vos fichiers téléversés."
 
 #: wp-admin/themes.php:151
 msgid "Installing themes on Multisite can only be done from the Network Admin section."
@@ -11376,7 +11376,7 @@ msgstr "Si vous supprimez un lien, il sera supprimé définitivement, car les li
 #. translators: %s: URL to Widgets screen.
 #: wp-admin/link-manager.php:60
 msgid "You can add links here to be displayed on your site, usually using <a href=\"%s\">Widgets</a>. By default, links to several sites in the WordPress community are included as examples."
-msgstr "Vous pouvez ici ajouter les liens que vous voulez voir affichés sur votre site, généralement par le biais de <a href=\"%s\">widgets</a>. Des liens vers de nombreux sites de la communauté WordPress sont inclus par défaut."
+msgstr "Vous pouvez ajouter ici les liens que vous voulez voir affichés sur votre site, généralement par le biais de <a href=\"%s\">widgets</a>. Des liens vers de nombreux sites de la communauté WordPress sont inclus par défaut."
 
 #: wp-admin/edit-tags.php:284
 msgid "<strong>Slug</strong> &mdash; The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
@@ -11591,7 +11591,7 @@ msgstr "Recadrer l’image d’en-tête"
 
 #: wp-admin/includes/class-custom-image-header.php:905
 msgid "Image Upload Error"
-msgstr "Erreur lors de l’envoi de l’image"
+msgstr "Erreur lors du téléversement de l’image"
 
 #: wp-admin/includes/class-custom-image-header.php:693
 msgid "Restore Original Header Image"
@@ -12853,7 +12853,7 @@ msgstr "Stocker les téléversements dans ce dossier"
 
 #: wp-admin/options-media.php:107
 msgid "Uploading Files"
-msgstr "Envoi de fichiers"
+msgstr "Téléversement des médias"
 
 #: wp-admin/options-media.php:81 wp-admin/options-media.php:82
 msgid "Large size"
@@ -13179,7 +13179,7 @@ msgstr "Désolé, vous n’avez pas l’autorisation de modifier ce fichier atta
 
 #: wp-admin/media-new.php:42
 msgid "Upload New Media"
-msgstr "Envoi d’un nouveau média"
+msgstr "Téléverser un média"
 
 #: wp-admin/maint/repair.php:169
 msgid "Repair and Optimize Database"
@@ -14326,7 +14326,7 @@ msgstr "L’URL fournie n’est pas valide."
 
 #: wp-admin/includes/file.php:858
 msgid "Specified file failed upload test."
-msgstr "Le test d’envoi du fichier spécifié a échoué."
+msgstr "Le test de téléversement du fichier spécifié a échoué."
 
 #: wp-admin/includes/file.php:848
 msgid "Invalid form submission."
@@ -14334,7 +14334,7 @@ msgstr "Envoi non valide du formulaire."
 
 #: wp-admin/includes/file.php:834
 msgid "File upload stopped by extension."
-msgstr "L’envoi de fichier est arrêté par l’extension."
+msgstr "Le téléversement de fichier est arrêté par l’extension."
 
 #: wp-admin/includes/file.php:833
 msgid "Failed to write file to disk."
