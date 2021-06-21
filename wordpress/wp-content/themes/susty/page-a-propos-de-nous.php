@@ -19,9 +19,8 @@ get_header();
 <div id="primary">
     <main id="main">
         <div class="content banniere">
-            <h1 class="banniere-text ">A propos de nous</h1>
-            <img class="banniere-img" src="/wp-content/uploads/2021/06/universite-toovalu.jpeg" alt="">
         </div>
+        <p class="banniere-image"></p>
         <h2 class="text-center"><em>L'entreprise</em> Toovalu</h2>
         <p class="text-center ml-15 mr-15 pb-6">Notre nom a été inspiré par l’archipel Tuvalu situé dans l’océan pacifique. Triste <br>
             symbole du réchauffement climatique avec la conséquence de la montée des eaux.<br>
@@ -58,11 +57,11 @@ get_header();
                 <p class="text-center">Business developer RSE</p>
             </div>
             <div class="">
-                <h3 class="color-green"><em>Marie-Astrind</em></h3>
-                <p class="text-center">Succes manager</p>
+                <h3 class="color-green"><em>Hortense</em></h3>
+                <p class="text-center">Developpeur web</p>
             </div>
             <div>
-                <img src="/wp-content/uploads/2021/04/394-591-max-8.jpeg" alt="">
+                <img src="/wp-content/uploads/2021/04/683-1024.jpeg" alt="">
             </div>
             <div class="">
                 <h3 class="color-green"><em>Quentin</em></h3>
@@ -104,10 +103,12 @@ get_header();
                 </p>
             </div>
             <div class="grid_fullcell">
-                <img src="/wp-content/uploads/2021/06/70.png" alt="">
+                <img src="/wp-content/uploads/2021/06/APN_Organisation-scaled.jpg
+
+" alt="">
             </div>
             <div class="grid_fullcell">
-                <img src="/wp-content/uploads/2021/06/abeille.png" alt="">
+                <img src="/wp-content/uploads/2021/06/APN_valeurs--scaled.jpg" alt="">
             </div>
             <div class="">
                 <h3 class="text-center mt-15">Notre <em>mission</em></h3>
@@ -125,7 +126,7 @@ get_header();
 <!--                <p class="pt-2 bt-2 text-center"><a href="#" class="btn btn--green">Découvrir notre écostystème</a></p>-->
             </div>
             <div class="grid_fullcell">
-                <img src="/wp-content/uploads/2021/06/70.png" alt="">
+                <img src="/wp-content/uploads/2021/06/APN_Certif.jpg" alt="">
             </div>
         </div>
     </main><!-- #main -->
