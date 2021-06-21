@@ -136,29 +136,27 @@ get_header();
                     <h3 class="text-center"><span>UN BILAN</span></h3<br>
                     <p class="text-center ff-light"><em>carbone qui voit loin!</em></p>
                 </div>
-                <div>
-                    <img src="/wp-content/uploads/2021/06/Tracé-147.png" alt="">
+                <div  class="grid_fullcell">
+                    <img src="/wp-content/uploads/2021/06/HP_TT_BC-scaled.jpg" alt="">
                 </div>
                 <div class="bg-pink">
-                    <h3 class="text-center"><span>Un logiciel opérationnel</span></h3><br>
-                    <p class="text-center ff-light"><em>Multi-référentiel</em></p>
+                    <h3 class="text-center"><span>Construire une trajectoire <br><em>bas-carbone</em></span></h3><br>
                 </div>
                 <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/06/4_Claim_Experience.png" alt="">
+                    <img src="/wp-content/uploads/2021/06/HP_TT_Trajectoire.jpg" alt="">
                 </div>
                 <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/06/1_Claims_ConcentréTech_Penseur-1.png" alt="">
+                    <img src="/wp-content/uploads/2021/06/966-1125-max.jpeg" alt="">
                 </div>
                 <div class="bg-yellow">
-                    <h3 class="text-center">Une <span class="">DPEF</span><br></h3>
-                    <p class="text-center"><em>qui fait sens</em></p>
+                    <h3 class="text-center">Pilotez en toute <br><em>sérénité!</em></h3>
                 </div>
                 <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                    <img src="/wp-content/uploads/2021/06/HP_TT_Construction.jpg" alt="">
                 </div>
                 <div class="bg-green">
-                    <h3 class="text-center">Collaboratif et engagé </h3>
-                    <p class="text-center"><em>Une implication a tout niveau</em></p>
+                    <h3 class="text-center">Collaboratif et Engagé</h3>
+                    <p class="text-center"><em></em></p>
                 </div>
             </div>
             <hr>

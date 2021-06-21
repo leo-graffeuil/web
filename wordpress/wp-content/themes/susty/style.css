@@ -14,9 +14,24 @@
 .formContact {
   margin-bottom: 100px;
 }
-.background {
+
+.wpforms-form input{
   background-color: #05b0a2;
   opacity: 20%;
+  color: black;
+}
+
+.wpforms-form textarea{
+  background-color: #05b0a2;
+  opacity: 20%;
+}
+
+.wpforms-container .wpforms-form .wpforms-field-label,
+.wpforms-container .wpforms-form .wpforms-field-sublabel,
+.wpforms-container .wpforms-form input[type=text],
+.wpforms-container .wpforms-form textarea,
+.wpforms-container .wpforms-form button[type=submit] {
+  color: var(--blue);
 }
 
 .block {
