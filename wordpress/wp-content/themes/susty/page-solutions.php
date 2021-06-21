@@ -37,21 +37,8 @@ get_header();
                     <h2 class="text-center pb-2">Vous <em>êtes</em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière <br>(aujourd’hui,
-                            c’est le bazar, y’en a
-                            partout !)
-                            </strong></p>
-                    </div>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Gagner</strong> du temps à la collecte, l’audit et l’exploitation des
-                            données.
-                        </p>
-                    </div>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0">Intégrer le <strong>pilotage de votre RSE</strong> dans vos instances
-                            décisionnelles.</p>
+                        <p class="mb-0 mr-3">Concerné par l’empreinte carbone de votre entreprise ou par la DPEF. Peut-être avez-vous déjà̀ structuré votre stratégie RSE/Climat
+                            en identifiant vos axes d’engagement, vos risques et vos enjeux prioritaires. </p>
                     </div>
                 </div>
             </div>
@@ -64,8 +51,6 @@ get_header();
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
                         <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière <br>(aujourd’hui,
-                            c’est le bazar, y’en a
-                            partout !)
                             </strong></p>
                     </div>
                     <div class="flex align-items-start pb-2">
@@ -83,6 +68,11 @@ get_header();
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
                         <p class="mb-0"><strong>Convaincre, impliquer</strong> toutes vos parties prenantes</p>
                     </div>
+                    <div class="flex align-items-start pb-2">
+                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                        <p class="mb-0">Passer à l’action et s’engager dans la cohérence et la durée</p>
+                    </div>
+                    <h4 class="text-center">Vous êtes au bon endroit !</h4>
                 </div>
                 <div class="grid_fullcell">
                     <div class="">

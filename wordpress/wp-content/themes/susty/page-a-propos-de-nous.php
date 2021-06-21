@@ -19,7 +19,7 @@ get_header();
 <div id="primary">
     <main id="main">
         <div class="content banniere">
-            <h1 class="banniere-text">A propos de nous</h1>
+            <h1 class="banniere-text ">A propos de nous</h1>
             <img class="banniere-img" src="/wp-content/uploads/2021/06/universite-toovalu.jpeg" alt="">
         </div>
         <h2 class="text-center"><em>L'entreprise</em> Toovalu</h2>
@@ -86,12 +86,22 @@ get_header();
             </div>
         </div>
         <div class="bg-green">
-            <h2 class="text-center"><em>10 ans</em> d'histoire</h2>
+            <h2 class="text-center"><em>10 ans</em> d'expérience</h2>
         </div>
+        <h2 class="text-center"><em>Notre</em> raison d'être</h2>
+        <p class="text-center ml-15 mr-15 pb-6">TOOVALU engage les décisionnaires à
+            intégrer la responsabilité sociétale,
+            les enjeux climat et leur impact au cœur de leur stratégie.</p>
         <div class="grid2 pb-6">
             <div class="">
                 <h3 class="text-center mt-15">Notre <em>organisation</em></h3>
-                <p class="text-center">Epicurus in armatum hostem impetum fecisse aut odit aut odit aut ad modum, quaeso, interpretaris? Consectum lorems dolor sit manet consectum lorem tuplal kkge sicine eos censes tantas. Lorem ipsum dolor sit amnet consectum libris set.</p>
+                <p class="text-center ml-3 mr-3">TOOVALU a mis en en place une gouvernance organique.
+                    Un management différent basé sur le modèle de l’holacratie,
+                    Toovalu a opté pour un mode de prise de décision et de répartition
+                    des responsabilités communs à tous les acteurs de l’entreprise :
+                    une organisation par cercle et sans hiérarchie, une définition précise
+                    des rôles et responsabilités de chacun pour une super efficacité collective.
+                </p>
             </div>
             <div class="grid_fullcell">
                 <img src="/wp-content/uploads/2021/06/70.png" alt="">
@@ -100,12 +110,18 @@ get_header();
                 <img src="/wp-content/uploads/2021/06/abeille.png" alt="">
             </div>
             <div class="">
-                <h3 class="text-center mt-15">Nos <em>valeurs</em></h3>
-                <p class="text-center">Epicurus in armatum hostem impetum fecisse aut odit aut odit aut ad modum, quaeso, interpretaris? Consectum lorems dolor sit manet consectum lorem tuplal kkge sicine eos censes tantas. Lorem ipsum dolor sit amnet consectum libris set.</p>
+                <h3 class="text-center mt-15">Notre <em>mission</em></h3>
+                <p class="text-center mr-3 ml-3">Chez TOOVALU, la RSE commence
+                    chez nous par « agir au quotidien dans nos pratiques »
+                    mais se prolonge surtout chez nos clients. Notre métier
+                    est de diffuser la RSE et l’engagement climat dans toutes les entreprises.
+                </p>
             </div>
             <div class="">
                 <h3 class="text-center mt-15">Nos <em>certifications</em></h3>
-                <p class="text-center">Epicurus in armatum hostem impetum fecisse aut odit aut odit aut ad modum, quaeso, interpretaris? Consectum lorems dolor sit manet consectum lorem tuplal kkge sicine eos censes tantas. Lorem ipsum dolor sit amnet consectum libris set.</p>
+                <p class="text-center ml-3 mr-3">Toovalu est une entreprise à mission
+                    depuis janvier 2019 labellisée BCorp depuis 2017, car oui,
+                    business doit rimer avec bénéfice pour la société.</p>
 <!--                <p class="pt-2 bt-2 text-center"><a href="#" class="btn btn--green">Découvrir notre écostystème</a></p>-->
             </div>
             <div class="grid_fullcell">

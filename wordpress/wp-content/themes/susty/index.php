@@ -32,7 +32,7 @@ get_header();
                         Publié le <?php the_time('j F Y'); ?>
                     </p>
                     <h3 class="mb-4"><?php the_title(); ?></h3>
-                    <?php the_excerpt(); ?>
+                        <?php the_excerpt(); ?>
                     <div class="mb-4">
                     <a href="<?php the_permalink(); ?>" class="btn">Lire la suite</a>
                     </div>

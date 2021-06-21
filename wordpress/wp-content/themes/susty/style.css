@@ -415,7 +415,7 @@ h6 {
 
 h1 {
   font-size: 4rem;
-  line-height: 1.2;
+  line-height: 1,6;
 }
 
 h1 em,
@@ -443,7 +443,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  line-height: 1;
+  line-height: 150%;
 }
 
 p {
@@ -897,6 +897,9 @@ a:active {
 .ml-10rem {
   margin-left: 10rem;
 }
+.ml-3{
+  margin-left: 3rem;
+}
 .mr-5 {
   margin-right: 50px;
 }
@@ -906,7 +909,7 @@ a:active {
 }
 
 .mr-3 {
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 
 .mr-15 {

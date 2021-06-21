@@ -38,8 +38,8 @@ get_header();
             <div class="content">
                 <div class="container pt-2 pb-2">
                     <h2 class="text-center">L'outil qui vous emmène <em>au-delà</em> du reporting</h2>
-                    <h3 class="text-center">Toovalu vous guide dans l’analyse de vos données<br> <em>chiffres clés,
-                            impacts significatifs</em>
+                    <h3 class="text-center">Toovalu vous guide dans l’analyse de vos données<br> chiffres clés,
+                            impacts significatifs
                     </h3>
                     <div>
                         <div class="flex-space-around pb-2">
@@ -52,7 +52,7 @@ get_header();
                                 <input type="radio" name="radio-buttons" id="img-1" checked/>
                                 <li class="slide-container" id="dynamique">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/image-6-2.png">
+                                        <img src="/wp-content/uploads/2021/06/image-4.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-3" class="prev-slide">
@@ -80,7 +80,7 @@ get_header();
                                 <input type="radio" name="radio-buttons" id="img-3"/>
                                 <li class="slide-container" id="analyse">
                                     <div class="slide-image">
-                                        <img src="/wp-content/uploads/2021/06/image-4.png">
+                                        <img src="/wp-content/uploads/2021/06/image-6-2.png">
                                     </div>
                                     <div class="carousel-controls">
                                         <label for="img-2" class="prev-slide">
@@ -166,14 +166,14 @@ get_header();
                 <div class="container">
                     <div class="wp-block-columns mb-0">
                         <div class="wp-block-column">
-                            <img src="/wp-content/uploads/2021/06/Groupe-141.png" alt="">
+                            <img src="/wp-content/uploads/2021/06/BCORP_logo.png" alt="">
                         </div>
                         <div class="wp-block-column" style="flex-basis: 66%;">
                             <h3 class="mt-0">Nous sommes une <a class="color-green" href="https://www.bcorporation.fr">B-CORP</a>,
                                 <br>la première à Nantes.
                             </h3>
                             <p>Comme TOOVALU, prenez part au mouvement des entreprises à impact positif!!</p>
-                            <p class="pacifico text-center ">Avec <a class="color-green"
+                            <p class="text-center ">Avec <a class="color-green"
                                                                      href="https://www.bcorporation.fr">B-corp</a>
                                 , nous avons pour objectif de démontrer notre impact positif sur la société, et nous
                                 acceptons d’être évalué sur nos performances globales tous les deux ans</p>
