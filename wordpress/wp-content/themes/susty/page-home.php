@@ -21,8 +21,8 @@ get_header();
             <div class="content">
                 <div id="homepage_header" class="container pt-2 pb-2">
                     <h1><strong>Solution logicielle pilotage de votre stratégie Climat & RSE</strong><br>
-                        <em>Et s’il était temps de changer d’ère ?</em>
                     </h1>
+                    <h2><em>Et s’il était temps de changer d’ère ?</em></h2>
                     <img class="text-center" src="/wp-content/uploads/2021/04/toovalu-impact.jpeg" alt="">
                     <p>
                         bas-carbone <span class="color-green">/</span>
