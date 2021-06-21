@@ -34,11 +34,12 @@ get_header();
                     </div>
                 </div>
                 <div>
-                    <h2 class="text-center pb-2"><em>Vous êtes</em></h2>
+                    <h2 class="text-center pb-2"><em>Vous êtes . . . </em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0 mr-3">Concerné par l’empreinte carbone de votre entreprise ou par la DPEF. Peut-être avez-vous déjà̀ structuré votre stratégie RSE/Climat
-                            en identifiant vos axes d’engagement, vos risques et vos enjeux prioritaires. </p>
+                        <p class="mb-0 mr-3">Concerné par l’empreinte carbone de votre entreprise ou par la DPEF.<br>
+                            Peut-être, avez-vous déjà̀ structuré votre stratégie RSE/Climat
+                            en identifiant vos axes d’engagement, vos risques et vos enjeux prioritaires ? </p>
                     </div>
                 </div>
             </div>
@@ -47,7 +48,7 @@ get_header();
             </div>
             <div class="grid2 mt-7">
                 <div>
-                    <h2 class="text-center pb-2">Vous <em>souhaitez</em></h2>
+                    <h2 class="text-center pb-2"><em>Vous souhaitez</em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
                         <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière <br>(aujourd’hui,
@@ -70,9 +71,9 @@ get_header();
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0">Passer à l’action et s’engager dans la cohérence et la durée</p>
+                        <p class="mb-0"><strong>Passer à l’action</strong> et<strong>s’engager</strong> dans la cohérence et la durée</p>
                     </div>
-                    <h4 class="text-center">Vous êtes au bon endroit !</h4>
+                    <h2 class="text-center">Vous êtes au bon endroit !</h2>
                 </div>
                 <div class="grid_fullcell">
                     <div class="">
