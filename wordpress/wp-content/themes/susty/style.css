@@ -690,7 +690,7 @@ a {
 }
 
 a:visited {
-  color: var(--green);
+  color: var(--white);
 }
 
 a:visited .white{
@@ -1519,7 +1519,7 @@ ul.slides input {
 
 input:checked + .slide-container .carousel-controls label {
   display: flex;
-  height: 600px;
+  height: 450px;
   align-items: center;
   position: absolute;
   padding: 0 20px;

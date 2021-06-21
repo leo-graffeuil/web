@@ -106,15 +106,15 @@ get_header();
                 </div>
             </div>
             <div class="grid2">
-                <div class="grid_fullcell aligncenter"><img src="/wp-content/uploads/2021/04/toovalu-equipes.jpeg"
+                <div class="grid_fullcell"><img src="/wp-content/uploads/2021/06/Groupe-Arbre-copie.jpeg"
                                                             alt=""></div>
                 <div>
                     <h2 class="text-center pt-0">La Toovalu <em>Touch !</em></h2>
-                    <p class="text-middle-4">Une <strong>Technologie</strong> proposant un pilotage de l’entreprise par
+                    <p class="mr-3 ml-3">Une <strong>Technologie</strong> proposant un pilotage de l’entreprise par
                         l’impact en plongeant aux racines de vos données pour les rendre utiles ! Et ainsi aider les
                         dirigeants et décisionnaires à intégrer la RSE, les enjeux climatiques et leurs impacts au cœur
                         de leur stratégie. </p>
-                    <p class="text-center pt-2 pb-2"><a href="/a-propos-de-nous" class="btn">À propose de nous</a></p>
+                    <p class="text-center pt-2 pb-2"><a href="/a-propos-de-nous" class="btn">À propos de nous</a></p>
                     <div class="grid4">
                         <div class="text-center">
                             <p>Piloter</p><img src="/wp-content/uploads/2021/06/Groupe-79.png" alt="">
@@ -133,15 +133,15 @@ get_header();
             </div>
             <div class="grid4">
                 <div class="bg-blue">
-                    <h3 class="text-center"><span>UN BILAN CARBONE</span></h3<br>
+                    <h3 class="text-center"><span class="text-center ff-light">Un</span><span> BILAN CARBONE</span></h3<br>
                     <p class="text-center ff-light"> qui voit loin!</p>
                 </div>
                 <div  class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_BC-scaled.jpg" alt="">
                 </div>
                 <div class="bg-pink">
-                    <h3 class="text-center"><span>Construire votre trajectoire</span></h3>
-                    <h4>bas-carbone</h4>
+                    <h3 class="text-center"><span class="text-center ff-light">Construire votre</span><br> <span>TRAJECTOIRE</span>
+                        <br>BAS-CARBONE</h3>
                 </div>
                 <div class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_Trajectoire.jpg" alt="">
@@ -150,16 +150,22 @@ get_header();
                     <img src="/wp-content/uploads/2021/06/HP_TT_Piloter-copie-retouch.jpg" alt="">
                 </div>
                 <div class="bg-yellow">
-                    <h3 class="text-center"><span>Pilotez vos stratégie</span></h3>
-                    <h4>en toute sérénité!</h4>
+                    <h3 class="text-center"><span>Pilotez</span><br> <span> vos stratégies</span><br>
+                        <span class="text-center ff-light">en toute sérénité!</span>
+                    </h3><br>
                 </div>
                 <div class="grid_fullcell">
                     <img src="/wp-content/uploads/2021/06/HP_TT_Construction.jpg" alt="">
                 </div>
                 <div class="bg-green">
-                    <h4>Un outil</h4>
-                    <h3 class="text-center">Collaboratif et Engagé</h3>
-                    <p class="text-center"><em></em></p>
+                    <H3>
+                        <span class="text-center ff-light">Un outil</span><br>
+                        <span class="aligncenter">COLLABORATIF <br>
+                            <span class="text-center">&</span>
+                            <br>
+                        <span class="">ENGAGÉ</span>
+                        </span>
+                    </h3>
                 </div>
             </div>
             <hr>
