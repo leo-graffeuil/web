@@ -182,11 +182,9 @@ get_header();
                             <img src="/wp-content/uploads/2021/06/BCORP_logo.png" alt="">
                         </div>
                         <div class="wp-block-column" style="flex-basis: 66%;">
-                            <h3 class="mt-0">Nous sommes une <a class="color-green" href="https://www.bcorporation.fr">B-CORP</a>,
-                                <br>la première à Nantes.
+                            <h3 class="mt-0">Prenez part au mouvement des entreprises à impact positif !!
                             </h3>
-                            <p>Comme TOOVALU, prenez part au mouvement des entreprises à impact positif!!</p>
-                            <p class="text-center ">Avec <a class="color-green"
+                            <p class="text-center ">Toovalu est devenue BCorp en 2017, l'une des premières à Nantes. Avec <a class="blue-visited color-green"
                                                                      href="https://www.bcorporation.fr">B-corp</a>
                                 , nous avons pour objectif de démontrer notre impact positif sur la société, et nous
                                 acceptons d’être évalué sur nos performances globales tous les deux ans</p>
