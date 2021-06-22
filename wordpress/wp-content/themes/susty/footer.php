@@ -30,9 +30,9 @@
         </div>
         <div class="col">
             <ul id="footer_sharing">
-                <li><a href="https://www.youtube.com/channel/UCNDVj-pdNZVUNekZ-RiW7AA" class="icon"><span class="dashicons dashicons-youtube"></span></a></li>
-                <li><a href="https://www.linkedin.com/company/toovalu-sas/?originalSubdomain=fr" class="icon"><span class="dashicons dashicons-linkedin"></span></a></li>
-                <li><a href="https://twitter.com/toovalurse?lang=fr" class="icon"><span class="dashicons dashicons-twitter"></span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCNDVj-pdNZVUNekZ-RiW7AA" class="icon"><span class="fa fa-youtube"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/toovalu-sas/?originalSubdomain=fr" class="icon"><span class="fa fa-linkedin"></span></a></li>
+                <li><a href="https://twitter.com/toovalurse?lang=fr" class="icon"><span class="fa fa-twitter"></span></a></li>
             </ul>
         </div>
         <div class="col">
