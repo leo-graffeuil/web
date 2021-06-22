@@ -1215,6 +1215,7 @@ svg * {
   background: #fff;
   border-radius: 2rem;
   padding: 1rem 4rem 1rem 2rem;
+  width: 25rem;
 }
 
 #contactForm form button {
