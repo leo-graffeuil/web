@@ -113,7 +113,13 @@ get_header();
                     <p class="mr-3 ml-3">Une <strong>Technologie</strong> proposant un pilotage de l’entreprise par
                         l’impact en plongeant aux racines de vos données pour les rendre utiles ! Et ainsi aider les
                         dirigeants et décisionnaires à intégrer la RSE, les enjeux climatiques et leurs impacts au cœur
-                        de leur stratégie. </p>
+                        de leur stratégie.
+                        <br>
+                        Avec maintenant 10 ans d'expériences, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
+                        Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone.
+                        Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairant.
+
+                     </p>
                     <p class="text-center pt-2 pb-2"><a href="/a-propos-de-nous" class="btn">À propos de nous</a></p>
                     <div class="grid4">
                         <div class="text-center">
@@ -150,7 +156,7 @@ get_header();
                     <img src="/wp-content/uploads/2021/06/HP_TT_Piloter-copie-retouch.jpg" alt="">
                 </div>
                 <div class="bg-yellow">
-                    <h3 class="text-center"><span>Pilotez</span><br> <span> vos stratégies</span><br>
+                    <h3 class="text-center"><span>PILOTEZ</span><br> <span> VOS STRATÉGIES</span><br>
                         <span class="text-center ff-light">en toute sérénité!</span>
                     </h3><br>
                 </div>
