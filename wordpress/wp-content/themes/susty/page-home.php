@@ -106,7 +106,7 @@ get_header();
                 </div>
             </div>
             <div class="grid2">
-                <div class="grid_fullcell"><img src="/wp-content/uploads/2021/06/Groupe-Arbre-copie.jpeg"
+                <div class="grid_fullcell alignItemCente"><img src="/wp-content/uploads/2021/06/1536-1024.jpeg"
                                                             alt=""></div>
                 <div>
                     <h2 class="text-center pt-0">La Toovalu <em>Touch !</em></h2>
@@ -184,7 +184,7 @@ get_header();
                         <div class="wp-block-column" style="flex-basis: 66%;">
                             <h3 class="mt-0">Prenez part au mouvement des entreprises à impact positif !!
                             </h3>
-                            <p class="text-center ">Toovalu est devenue BCorp en 2017, l'une des premières à Nantes. Avec <a class="blue-visited color-green"
+                            <p class="text-center ">Toovalu est devenue BCorp en 2017, l'une des premières à Nantes. Avec <a class="color-green pink-visited"
                                                                      href="https://www.bcorporation.fr">B-corp</a>
                                 , nous avons pour objectif de démontrer notre impact positif sur la société, et nous
                                 acceptons d’être évalué sur nos performances globales tous les deux ans</p>
