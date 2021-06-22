@@ -23,9 +23,9 @@ get_header();
             </div>
             <div class="container">
             </div>
-            <h2 class="text-center">Vos <em>bénéfices</em> avec Toovlau</h2>
-            <div class="text-center">
-                <img src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
+            <h2 class="text-center">Vos <em>bénéfices</em> avec Toovalu</h2>
+            <div class="text-center img-hover-zoom">
+                <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
             </div>
             <div class="grid2 mt-7">
                 <div class="grid_fullcell">
@@ -43,10 +43,10 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="text-center pt-2">
-                <img src="/wp-content/uploads/2021/06/Tracé-139.png" alt="">
+            <div class="text-center img-hover-zoom">
+                <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-139.png" alt="">
             </div>
-            <div class="grid2 mt-7">
+            <div class="grid2 mt-5">
                 <div>
                     <h2 class="text-center pb-2"><em>Vous souhaitez</em></h2>
                     <div class="flex align-items-start pb-2">
@@ -81,8 +81,8 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="text-center pt-2">
-                <img src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
+            <div class="text-center img-hover-zoom">
+                <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
             </div>
             <h2 class="text-center pb-2">Toovalu est fait <br><em>pour vous !</em></h2>
             <div class="content">
