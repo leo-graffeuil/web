@@ -8,15 +8,12 @@
  * @package Susty
  */
 ?>
-
-</div>
-
+<div>
 <footer>
     <div id="contactForm" class="content">
         <div class="container">
             <form action="">
-                <input type="email" placeholder="Je m'abonne à la newsletter" id="email">
-                <button type="submit">Je m'abonne</button>
+                <?php echo do_shortcode("[wpforms id=1436]"); ?>
             </form>
         </div>
     </div>

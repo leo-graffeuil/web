@@ -84,9 +84,95 @@ get_header();
                 <p class="text-center">Responsable des developpement informatique</p>
             </div>
         </div>
-        <div class="bg-green">
-            <h2 class="text-center"><em>10 ans</em> d'expérience</h2>
-        </div>
+        <div class="bg-green pb-2">
+        <section id="process">
+            <div class="row">
+                <div class="section-heading">
+                    <h2 class="text-center pb-4"><em>10 ans d'expérience</em></h2>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="steps-timeline text-center">
+                        <div class="steps-one">
+                            <h3 class="color-blue">2011</h3>
+                            <div class="end-circle back-yellow"></div>
+                            <div class="step-wrap border-blue">
+                                <div class="blob blue">
+                                    <div class="verticle-line back-blue"></div>
+                                </div>
+                            </div>
+                            <div class="inverted-pane-warp back-blue">
+                                <div class="inverted-steps-pane">
+                                    <p>Création de l'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps-two">
+                            <h3 class="color-pink">2016</h3>
+                            <div class="step-wrap border-pink">
+                                <div class="blob pink">
+                                    <div class="verticle-line back-pink"></div>
+                                </div>
+                            </div>
+                            <div class="inverted-pane-warp back-pink">
+                                <div class="inverted-steps-pane">
+                                    <p>Lancement de la Business Intelligence Responsable</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps-three">
+                            <h3 class="color-yellow">2017</h3>
+                            <div class="step-wrap border-yellow">
+                                <div class="blob yellow">
+                                    <div class="verticle-line back-yellow"></div>
+                                </div>
+                            </div>
+                            <div class="inverted-pane-warp back-yellow">
+                                <div class="inverted-steps-pane">
+                                    <p>TOOVALU devient la
+                                        1ère BCORP de Nantes !</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps-four">
+                            <h3 class="color-blue">2018</h3>
+                            <div class="step-wrap border-blue">
+                                <div class="blob blue">
+                                    <div class="verticle-line back-blue"></div>
+                                </div>
+                            </div>
+                            <div class="inverted-pane-warp back-blue">
+                                <div class="inverted-steps-pane">
+                                    <p>TOOVALU créée sa holding de salariés KIVALINA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="steps-five">
+                            <h3 class="color-pink">2019</h3>
+                            <div class="inverted-end-circle back-yellow"></div>
+                            <div class="step-wrap border-pink">
+                                <div class="blob pink">
+                                    <div class="verticle-line back-pink"></div>
+                                </div>
+                            </div>
+                            <div class="inverted-pane-warp back-pink">
+                                <div class="inverted-steps-pane">
+                                    <p>Entreprise à Mission en inscrivant dans ses statuts sa raison d’être. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                    <!-- /.steps-timeline -->
+                </div>
+            </div>
+        </section>
         <h2 class="text-center"><em>Notre</em> raison d'être</h2>
         <p class="text-center ml-15 mr-15 pb-6">TOOVALU engage les décisionnaires à
             intégrer la responsabilité sociétale,
