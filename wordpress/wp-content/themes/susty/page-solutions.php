@@ -51,7 +51,7 @@ get_header();
                     <h2 class="text-center pb-2"><em>Vous souhaitez</em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière <br>(aujourd’hui,
+                        <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière
                             </strong></p>
                     </div>
                     <div class="flex align-items-start pb-2">
@@ -62,7 +62,7 @@ get_header();
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0">Intégrer le <strong>pilotage de votre RSE</strong> dans vos instances
+                        <p class="mb-0">Intégrer le <strong>pilotage</strong> dans vos instances
                             décisionnelles.</p>
                     </div>
                     <div class="flex align-items-start pb-2">
@@ -71,7 +71,7 @@ get_header();
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Passer à l’action</strong> et<strong>s’engager</strong> dans la cohérence et la durée</p>
+                        <p class="mb-0"><strong>Passer à l’action</strong> et <strong>s’engager</strong> dans la cohérence et la durée</p>
                     </div>
                     <h2 class="text-center">Vous êtes au bon endroit !</h2>
                 </div>
@@ -87,7 +87,7 @@ get_header();
             <h2 class="text-center pb-2">Toovalu est fait <br><em>pour vous !</em></h2>
             <div class="content">
                 <div class="container pt-2 pb-2">
-                    <h2 class="text-center">L'outil qui vous emmène <em>au-delà</em> du reporting</h2>
+                    <h3 class="text-center">L'outil qui va mettre un coup de froid sur le réchauffement climatique !</h3>
                     <div>
                         <div class="flex-space-around pb-2">
                             <a href="#dynamique">Tableau de bord dynamique</a>
