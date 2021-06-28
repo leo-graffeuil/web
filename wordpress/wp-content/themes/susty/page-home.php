@@ -106,7 +106,7 @@ get_header();
                 </div>
             </div>
             <div class="grid2">
-                <div class="grid_fullcell alignItemCente"><img src="/wp-content/uploads/2021/06/1536-1024.jpeg"
+                <div class="grid_fullcell alignItemCenter"><img src="/wp-content/uploads/2021/06/1536-1024.jpeg"
                                                             alt=""></div>
                 <div>
                     <h2 class="text-center pt-0">La Toovalu <em>Touch !</em></h2>

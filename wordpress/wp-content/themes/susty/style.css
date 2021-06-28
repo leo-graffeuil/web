@@ -909,6 +909,10 @@ a:active {
   padding-bottom: 2rem;
 }
 
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
 .pb-4 {
   padding-bottom: 4rem;
 }
@@ -938,6 +942,9 @@ a:active {
 
 .mr-15rem {
   margin-right: 15rem;
+}
+.mr-4{
+  margin-right: 4rem;
 }
 
 .ml-10rem {
@@ -1542,7 +1549,7 @@ ul.slides input {
   display: flex;
 }
 
-.alignItemCente{
+.alignItemCenter{
   align-items: center;
 }
 
