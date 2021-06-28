@@ -33,62 +33,139 @@ get_header();
                 Les premiers mais pas les derniers, <br></p>
             <h3 class="text-center pb-6"><strong>alors agissons !</strong></h3>
             <h2 class="text-center pb-4">Une équipe motivée, dynamique<br> et solidaire !</h2>
-            <div class="grid4 pb-4">
-                <div class="">
-                    <h3 class="color-green"><em>Marie</em></h3>
+            <h3 class="text-center color-green">Cercle de coordination</h3>
+            <div class="grid8 pb-4">
+                <div class="border-green">
+                    <h3 class="color-green text-center"><em>Marie</em></h3>
                     <p class="text-center">Directrice générale</p>
                 </div>
-                <div>
-                    <img src="/wp-content/uploads/2021/04/394-591-max-3.jpeg" alt="">
+                <div class="border-green grid_fullcell">
+                    <img class="circle" src="/wp-content/uploads/2021/04/394-591-max-3.jpeg" alt="">
                 </div>
-                <div class="">
-                    <h3 class="color-green"><em>François</em></h3>
+                <div class="border-green">
+                    <h3 class="color-green text-center"><em>François</em></h3>
                     <p class="text-center">Président de TOOVALU</p>
                 </div>
-                <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/04/394-591-max-9.jpeg" alt="">
+                <div class="grid_fullcell border-green">
+                    <img class="circle" src="/wp-content/uploads/2021/04/394-591-max-9.jpeg" alt="">
                 </div>
-                <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/04/394-591-max-5.jpeg" alt="">
-                </div>
-                <div class="">
-                    <h3 class="color-green"><em>Stéphanie</em></h3>
+                <div class="border-green">
+                    <h3 class="color-green text-center"><em>Stéphanie</em></h3>
                     <p class="text-center">Adjointe de direction</p>
                 </div>
-                <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/04/394-591-max-6.jpeg" alt="">
+                <div class="grid_fullcell border-green">
+                    <img class="circle" src="/wp-content/uploads/2021/06/stephanie.jpeg" alt="stephanie-toovalu">
                 </div>
-                <div class="">
-                    <h3 class="color-green"><em>Renate</em></h3>
-                    <p class="text-center">Business developer RSE</p>
+                <div class="border-green">
+                    <h3 class="color-green text-center"><em>Nicolas</em></h3>
+                    <p class="text-center">Responsable R&D et doctorant en thèse CIFRE</p>
                 </div>
-                <div class="">
-                    <h3 class="color-green"><em>Hortense</em></h3>
-                    <p class="text-center">Developpeur web</p>
+                <div class="grid_fullcell border-green">
+                    <img class="circle" src="/wp-content/uploads/2021/06/nicolas.jpeg" alt="">
                 </div>
-                <div>
-                    <img src="/wp-content/uploads/2021/04/683-1024.jpeg" alt="">
+            </div>
+                <hr>
+            <h3 class="text-center color-yellow">Cercle sales</h3>
+
+            <div class="grid6 pb-4">
+                <div class="border-yellow">
+                    <h3 class="color-green text-center"><em>Renate</em></h3>
+                    <p class="text-center">Business developer</p>
                 </div>
-                <div class="">
-                    <h3 class="color-green"><em>Quentin</em></h3>
-                    <p class="text-center">Business developper Climat</p>
+                <div class="grid_fullcell border-yellow">
+                    <img  src="/wp-content/uploads/2021/04/394-591-max-6.jpeg" alt="">
                 </div>
-                <div>
+                <div class="border-yellow">
+                    <h3 class="color-green text-center"><em>Benjamin</em></h3>
+                    <p class="text-center">Business developper</p>
+                </div>
+                <div class="border-yellow">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                </div>
+                <div class="border-yellow">
+                    <h3 class="color-green text-center"><em>Quentin</em></h3>
+                    <p class="text-center">Business developper</p>
+                </div>
+                <div class="border-yellow">
                     <img src="/wp-content/uploads/2021/04/768-1024.jpeg" alt="">
                 </div>
-                <div class="grid_fullcell">
-                    <img src="/wp-content/uploads/2021/04/683-1024-2.jpeg" alt="">
-                </div>
-                <div class="">
-                    <h3 class="color-green"><em>Elodie</em></h3>
+            </div>
+            <hr>
+            <h3 class="text-center color-pink">Cercle success</h3>
+            <div class="grid8 pb-4">
+            <div class="border-pink">
+                    <h3 class="color-green text-center"><em>Maxime</em></h3>
                     <p class="text-center">Succes manager</p>
                 </div>
-                <div class="grid_fullcell">
+                <div class="grid_fullcell border-pink">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                </div>
+                <div class="border-pink">
+                    <h3 class="color-green text-center"><em>Clément</em></h3>
+                    <p class="text-center">Succes manager</p>
+                </div>
+                <div class="grid_fullcell border-pink">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                </div>
+                <div class="border-pink">
+                    <h3 class="color-green text-center"><em>Elodie</em></h3>
+                    <p class="text-center">Succes manager</p>
+                </div>
+                <div class="grid_fullcell border-pink">
+                    <img class="circle" src="/wp-content/uploads/2021/04/683-1024-2.jpeg" alt="">
+                </div>
+                <div class="border-pink">
+                    <h3 class="color-green text-center"><em>Caroline</em></h3>
+                    <p class="text-center">Succes manager</p>
+                </div>
+                <div class="grid_fullcell border-pink">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                </div>
+            </div>
+            <hr>
+            <h3 class="text-center">Cercle Scrum</h3>
+            <div class="grid6 pb-4">
+            <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Mélodie</em></h3>
+                    <p class="text-center">Product owner</p>
+                </div>
+                <div class="grid_fullcell border-blue">
+                    <img src="/wp-content/uploads/2021/06/melody.jpeg" alt="melody-toovalu">
+                </div>
+                <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Meghann</em></h3>
+                    <p class="text-center">Product owner</p>
+                </div>
+                <div class="grid_fullcell border-blue">
                     <img src="/wp-content/uploads/2021/04/394-591-max-7.jpeg" alt="">
                 </div>
-                <div class="">
-                    <h3 class="color-green"><em>Meghann</em></h3>
-                    <p class="text-center">Responsable des developpement informatique</p>
+                <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Hortense</em></h3>
+                    <p class="text-center">Développeur web</p>
+                </div>
+                <div class="border-blue">
+                    <img src="/wp-content/uploads/2021/04/683-1024.jpeg" alt="">
+                </div>
+                <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Aurélien</em></h3>
+                    <p class="text-center">Développeur web</p>
+                </div>
+                <div class="grid_fullcell border-blue">
+                    <img src="/wp-content/uploads/2021/06/aurelien.jpeg" alt="">
+                </div>
+                <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Anaïs</em></h3>
+                    <p class="text-center">Développeur web</p>
+                </div>
+                <div class="grid_fullcell border-blue">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
+                </div>
+                <div class="border-blue">
+                    <h3 class="color-green text-center"><em>Leny</em></h3>
+                    <p class="text-center">Développeur web</p>
+                </div>
+                <div class="grid_fullcell border-blue">
+                    <img src="/wp-content/uploads/2021/06/Capture-décran-2021-06-10-à-11.11.22.png" alt="">
                 </div>
             </div>
             <div class="bg-blue pb-2">
