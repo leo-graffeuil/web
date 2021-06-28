@@ -23,6 +23,41 @@ get_header();
             </div>
             <div class="container">
             </div>
+            <div class="pb-4">
+                <h2 class="text-center"><em>Toovalu</em> propose</h2>
+                <p class="text-center ml-15 mr-15">Une gamme de solution logicielle<br>
+                    au service de l'engagement des entreprises. L'outil qui vous emmène au delà du reporting !
+                </p>
+            </div>
+            <div class="grid2 pb-4">
+                    <div>
+                        <h2 class="text-center pb-1"><em>Climat</em></h2>
+                        <p class="text-center"><strong>Toovalu rend l'engagement climat accessible à tous !</strong>
+                        </p>
+                        <div class="flex align-items-start pb-2">
+                            <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                            <p class="mb-0 mr-3">Module Bilan Carbone - collaboratif, multi-site, simplifié et ergonomique, une analyse</p>
+                        </div>
+                        <div class="flex align-items-start pb-2">
+                            <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                            <p class="mb-0 mr-3">Module stratégie climat - Définir vos objectifs, votre plan d'action, votre Trajectoire Bas-carbone !</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <h2 class="text-center pb-1"><em>RSE</em></h2>
+                        <p class="text-center"><strong>Faire de votre DPEF, un outil de pilotage.</strong></p>
+                        <div class="flex align-items-start pb-2">
+                            <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                            <p class="mb-0 mr-3">Module RSE - collecter vos données extra-financière de façon collaborative et intuitive, pilotez vos objectifs et votre plan d'action.</p>
+                        </div>
+                        <div class="flex align-items-start pb-2">
+                            <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                            <p class="mb-0 mr-3">Stratégie de performance globale - nous vous apportons les solutions pour aller plus loin, vers une entreprise à impact positif !
+                            </p>
+                        </div>
+                    </div>
+            </div>
             <h2 class="text-center">Vos <em>bénéfices</em> avec Toovalu</h2>
             <div class="text-center img-hover-zoom">
                 <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-140.png" alt="">
@@ -37,9 +72,18 @@ get_header();
                     <h2 class="text-center pb-2"><em>Vous êtes . . . </em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                        <p class="mb-0 mr-3">Dirigeant engagé, Responsable RSE motivé,  référent climat-environnement,
+                            acteur volontaire pour contribuer à la transformation de votre entreprise...</p>
+                    </div>
+                    <div class="flex align-items-start pb-2">
+                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
                         <p class="mb-0 mr-3">Concerné par l’empreinte carbone de votre entreprise ou par la DPEF.<br>
                             Peut-être, avez-vous déjà̀ structuré votre stratégie RSE/Climat
                             en identifiant vos axes d’engagement, vos risques et vos enjeux prioritaires ? </p>
+                    </div>
+                    <div class="flex align-items-start pb-2">
+                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
+                        <p class="mb-0 mr-3">Bravo, Vous avez déjà lancé un premier Bilan carbone, une démarche RSE, des actions RSE dans votre entreprise et vous souhaitez aller plus loin !</p>
                     </div>
                 </div>
             </div>
@@ -51,29 +95,23 @@ get_header();
                     <h2 class="text-center pb-2"><em>Vous souhaitez</em></h2>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Structurer </strong>votre donnée extra-financière
+                        <p class="mb-0"><strong>Structurer </strong>votre démarche d'engagement pour en faire un axe stratégique de votre entreprise
                             </strong></p>
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Gagner</strong> du temps à la collecte, l’audit et l’exploitation des
-                            données.
+                        <p class="mb-0"><strong>Gagner</strong> du temps à la collecte, l’audit et l’exploitation des données.
                         </p>
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0">Intégrer le <strong>pilotage</strong> dans vos instances
-                            décisionnelles.</p>
+                        <p class="mb-0">Avoir une démarche climat robuste, crédible et inscrite dans la durée en cohérence avec les trajectoires 1,5°C du GIEC</p>
                     </div>
                     <div class="flex align-items-start pb-2">
                         <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Convaincre, impliquer</strong> toutes vos parties prenantes</p>
+                        <p class="mb-0"><strong>Convaincre, impliquer</strong> toutes vos parties prenantes.
+                            <strong>Passer à l’action</strong> et <strong>s’engager</strong> sur la durée</p>
                     </div>
-                    <div class="flex align-items-start pb-2">
-                        <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                        <p class="mb-0"><strong>Passer à l’action</strong> et <strong>s’engager</strong> dans la cohérence et la durée</p>
-                    </div>
-                    <h2 class="text-center">Vous êtes au bon endroit !</h2>
                 </div>
                 <div class="grid_fullcell">
                     <div class="">

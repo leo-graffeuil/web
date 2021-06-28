@@ -22,6 +22,10 @@ get_header();
             </div>
             <p class="banniere-image"></p>
             <h2 class="text-center"><em>L'entreprise</em> Toovalu</h2>
+            <p class="text-center ml-15 mr-15">TOOVALU, solution logicielle de pilotage de votre stratégie climat & RSE.<br>
+                Toovalu engage les décisionnaires à intégrer la responsabilité sociétale, les enjeux climat et leur impact au cœur de leur stratégie.<br>
+                Une équipe de 20 personnes, développeurs, experts métiers climat & RSE... tous motivés et engagés.</p>
+            <hr>
             <p class="text-center ml-15 mr-15">Notre nom a été inspiré par l’archipel Tuvalu situé dans l’océan
                 pacifique. Triste <br>
                 symbole du réchauffement climatique avec la conséquence de la montée des eaux.<br>
@@ -29,7 +33,7 @@ get_header();
                 Les premiers mais pas les derniers, <br></p>
             <h3 class="text-center pb-6"><strong>alors agissons !</strong></h3>
             <h2 class="text-center pb-4">Une équipe motivée, dynamique<br> et solidaire !</h2>
-            <div class="grid4">
+            <div class="grid4 pb-4">
                 <div class="">
                     <h3 class="color-green"><em>Marie</em></h3>
                     <p class="text-center">Directrice générale</p>
@@ -87,135 +91,15 @@ get_header();
                     <p class="text-center">Responsable des developpement informatique</p>
                 </div>
             </div>
-            <div class="bg-green pb-2">
+            <div class="bg-blue pb-2">
                 <section id="process">
                     <div class="row">
                         <div class="section-heading">
                             <h2 class="text-center pb-4"><em>10 ans d'expériences</em></h2>
                         </div>
+                        <?php echo do_shortcode("[cool-timeline category=timeline-stories layout=horizontal designs=design-7 skin=default show-posts=4 order=ASC items=1 icons=YES story-content=full date-format=Y autoplay=false autoplay-speed=3000 start-on=0]"); ?>
+
                     </div>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="steps-timeline text-center">
-                                <div class="steps-one">
-                                    <h3 class="color-blue">2011</h3>
-                                    <div class="end-circle back-yellow"></div>
-                                    <div class="step-wrap border-blue">
-                                        <div class="blob blue">
-                                            <div class="verticle-line back-blue"></div>
-                                        </div>
-                                    </div>
-                                    <div class="inverted-pane-warp back-blue">
-                                        <div class="inverted-steps-pane">
-                                            <p>Création de l'entreprise</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="steps-two">
-                                    <h3 class="color-pink">2016</h3>
-                                    <div class="step-wrap border-pink">
-                                        <div class="blob pink">
-                                            <div class="verticle-line back-pink"></div>
-                                        </div>
-                                    </div>
-                                    <div class="inverted-pane-warp back-pink">
-                                        <div class="inverted-steps-pane">
-                                            <p>Lancement de la Business Intelligence Responsable</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="steps-three">
-                                    <h3 class="color-yellow">2017</h3>
-                                    <div class="step-wrap border-yellow">
-                                        <div class="blob yellow">
-                                            <div class="verticle-line back-yellow"></div>
-                                        </div>
-                                    </div>
-                                    <div class="inverted-pane-warp back-yellow">
-                                        <div class="inverted-steps-pane">
-                                            <p>TOOVALU devient la
-                                                1ère BCORP de Nantes !</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                    <div class="bg-green pb-2">
-                        <section id="process">
-                            <div class="row">
-                                <div class="section-heading">
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="steps-timeline text-center">
-                                        <div class="steps-one">
-                                            <h3 class="color-blue">2018</h3>
-                                            <div class="step-wrap border-blue">
-                                                <div class="blob blue">
-                                                    <div class="verticle-line back-blue"></div>
-                                                </div>
-                                            </div>
-                                            <div class="inverted-pane-warp back-blue">
-                                                <div class="inverted-steps-pane">
-                                                    <p>TOOVALU créée sa holding de salariés KIVALINA</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="steps-two">
-                                            <h3 class="color-pink">2019</h3>
-                                            <div class="step-wrap border-pink">
-                                                <div class="blob pink">
-                                                    <div class="verticle-line back-pink"></div>
-                                                </div>
-                                            </div>
-                                            <div class="inverted-pane-warp back-pink">
-                                                <div class="inverted-steps-pane">
-                                                    <p>Entreprise à Mission en inscrivant dans ses statuts sa raison
-                                                        d’être. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="steps-three">
-                                            <h3 class="color-yellow">2020</h3>
-                                            <div class="step-wrap border-yellow">
-                                                <div class="blob yellow">
-                                                    <div class="verticle-line back-yellow"></div>
-                                                </div>
-                                            </div>
-                                            <div class="inverted-pane-warp back-yellow">
-                                                <div class="inverted-steps-pane">
-                                                    <p>Une levée de fonds</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="steps-four">
-                                            <h3 class="color-blue">2021</h3>
-                                            <div class="inverted-end-circle back-yellow"></div>
-                                            <div class="step-wrap border-blue">
-                                                <div class="blob blue">
-                                                    <div class="verticle-line back-blue"></div>
-                                                </div>
-                                            </div>
-                                            <div class="inverted-pane-warp back-blue">
-                                                <div class="inverted-steps-pane">
-                                                    <p>Sortie de TOOVALU IMPACT</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                </section>
-            </div>
     </div>
     <h2 class="text-center"><em>Notre</em> raison d'être</h2>
     <p class="text-center ml-15 mr-15 pb-6">TOOVALU engage les décisionnaires à
@@ -223,7 +107,7 @@ get_header();
         les enjeux climat et leur impact au cœur de leur stratégie.</p>
     <div class="grid2 pb-6">
         <div class="">
-            <h3 class="text-center mt-15">Notre <em>organisation</em></h3>
+            <h3 class="text-center mt-15">Notre <em>gouvernance</em></h3>
             <p class="text-center ml-3 mr-3">TOOVALU a mis en en place une gouvernance organique.
                 Un management différent basé sur le modèle de l’holacratie,
                 Toovalu a opté pour un mode de prise de décision et de répartition
@@ -250,7 +134,10 @@ get_header();
             <h3 class="text-center mt-15">Nos <em>certifications</em></h3>
             <p class="text-center ml-3 mr-3">Toovalu est une entreprise à mission
                 depuis janvier 2019 labellisée BCorp depuis 2017, car oui,
-                business doit rimer avec bénéfice pour la société.</p>
+                business doit rimer avec bénéfice pour la société.</p><br>
+            <p class="text-center ml-3 mr-3">Nos experts métiers sont certifiés Bilan Carbone(c) et ACT - Assessing Low Carbon Transition.</p><br>
+            <p class="text-center ml-3 mr-3">Marie Gaborit est experte DRO et Chapter Zéro.
+            </p>
             <!--                <p class="pt-2 bt-2 text-center"><a href="#" class="btn btn--green">Découvrir notre écostystème</a></p>-->
         </div>
         <div class="grid_fullcell">
