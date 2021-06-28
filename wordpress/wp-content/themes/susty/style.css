@@ -27,7 +27,8 @@
 }
 
 #contactForm .wpforms-field-label{
-  padding-right: 1rem;
+  padding-right: 2rem;
+  color: var(--white);
 }
 
 .wpforms-container .wpforms-form .wpforms-field-label,

@@ -19,7 +19,7 @@ get_header();
     <div id="primary" xmlns="http://www.w3.org/1999/html">
         <main id="main">
             <div class="content banniere">
-                <img class="wdt-100" src="/wp-content/uploads/2021/06/1024x450px_Concentre_de_technologie_pour_entreprises_conscientes.png" alt="">
+                <img class="wdt-100" src="/wp-content/uploads/2021/06/1024x450px_Concentre_de_technologie_pour_entreprises_conscientes.png" alt="claim-entreprise-consciente" aria-label="claim-entreprise-consciente">
             </div>
             <div class="container">
             </div>
@@ -65,7 +65,7 @@ get_header();
             <div class="grid2 mt-7">
                 <div class="grid_fullcell">
                     <div class="">
-                        <img src="/wp-content/uploads/2021/06/SOL_-scaled.jpeg" alt="">
+                        <img src="/wp-content/uploads/2021/06/SOL_-scaled.jpeg" alt="toovalu-reportage-impact" aria-label="toovalu-reportage-impact">
                     </div>
                 </div>
                 <div>
@@ -88,7 +88,7 @@ get_header();
                 </div>
             </div>
             <div class="text-center img-hover-zoom">
-                <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-139.png" alt="">
+                <img class="zoom-img" src="/wp-content/uploads/2021/06/Tracé-139.png" alt="toovalu-impact-reportage" aria-label="toovalu-impact-reportage">
             </div>
             <div class="grid2 mt-5">
                 <div>
@@ -115,7 +115,7 @@ get_header();
                 </div>
                 <div class="grid_fullcell">
                     <div class="">
-                        <img src="/wp-content/uploads/2021/06/Toovalu_Reportage_6-scaled.jpeg" alt="">
+                        <img src="/wp-content/uploads/2021/06/Toovalu_Reportage_6-scaled.jpeg" alt="toovalu-impact-reportage" aria-label="toovalu-impact-reportage">
                     </div>
                 </div>
             </div>
