@@ -36,7 +36,7 @@ get_header();
                         </p>
                         <div class="flex align-items-start pb-2">
                             <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                            <p class="mb-0 mr-3">Module Bilan Carbone - collaboratif, multi-site, simplifié et ergonomique, une analyse</p>
+                            <p class="mb-0 mr-3">Module Bilan Carbone - collaboratif, multi-site, simplifié et ergonomique, une analyse détaillée de vos données</p>
                         </div>
                         <div class="flex align-items-start pb-2">
                             <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
