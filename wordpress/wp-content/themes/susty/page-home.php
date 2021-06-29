@@ -116,7 +116,7 @@ get_header();
                         de leur stratégie.
                         <br>
                         Avec maintenant 10 ans d'expériences, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
-                        Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone.
+                        Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone ©.
                         Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairants.
 
                      </p>
@@ -188,7 +188,7 @@ get_header();
                                                                      href="https://www.bcorporation.fr">B-corp</a>
                                 , nous avons pour objectif de démontrer notre impact positif sur la société, et nous
                                 acceptons d’être évalué sur nos performances globales tous les deux ans</p>
-                            <p class="pt-2 bt-2"><a href="/solutions" class="btn">En savoir +</a></p>
+                            <p class="pt-2 bt-2"><a href="/a-propos-de-nous" class="btn">En savoir +</a></p>
                         </div>
                     </div>
                 </div>
