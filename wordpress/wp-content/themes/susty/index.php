@@ -33,7 +33,7 @@ get_header();
                     </p>
                     <h3 class="mb-4"><?php the_title(); ?></h3>
                         <?php the_excerpt(); ?>
-                    <div class="mb-4">
+                    <div class="mb-4 pt-2">
                     <a href="<?php the_permalink(); ?>" class="btn">Lire la suite</a>
                     </div>
                 </div>
