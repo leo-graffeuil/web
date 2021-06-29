@@ -20,7 +20,7 @@ get_header();
         <main id="main homepage">
             <div class="content">
                 <div id="homepage_header" class="container pt-2 pb-2">
-                    <h1><strong>Solution logicielle pilotage de votre stratégie Climat & RSE</strong><br>
+                    <h1><strong>Solution logicielle de pilotage de votre stratégie Climat & RSE</strong><br>
                     </h1>
                     <h2><em>Et s’il était temps de changer d’ère ?</em></h2>
                     <img class="text-center" src="/wp-content/uploads/2021/04/toovalu-impact.jpeg" alt="logo-toovalu-impact" aria-label="logo-toovalu-impact">
@@ -117,7 +117,7 @@ get_header();
                         <br>
                         Avec maintenant 10 ans d'expériences, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
                         Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone.
-                        Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairant.
+                        Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairants.
 
                      </p>
                     <p class="text-center pt-2 pb-2"><a href="/a-propos-de-nous" class="btn">À propos de nous</a></p>
@@ -179,7 +179,7 @@ get_header();
                 <div class="container">
                     <div class="wp-block-columns mb-0">
                         <div class="wp-block-column flex-align-items">
-                            <img src="/wp-content/uploads/2021/06/BCORP_logo.png" alt="b-corp" aria-label="b-corp logo">
+                            <img src="/wp-content/uploads/2021/06/BCORP_logo.png" alt="b-corp" aria-label="b-corp-logo">
                         </div>
                         <div class="wp-block-column" style="flex-basis: 66%;">
                             <h3 class="mt-0">Prenez part au mouvement des entreprises à impact positif !!
