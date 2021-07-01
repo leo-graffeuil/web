@@ -75,6 +75,7 @@ svg * {
     }
 
     &.btn-appel-action a {
+      white-space: nowrap;
       background: var(--green);
       color: var(--white);
       border-radius: 2rem;
@@ -84,6 +85,7 @@ svg * {
         content: "→";
         font-size: 2rem;
         padding-left: 1rem;
+        vertical-align: middle;
         line-height: 0.5;
       }
       &:hover,
@@ -143,36 +145,6 @@ svg * {
 .edit-link a {
   padding: 0 0.5em;
   margin: 0 0.5em 0 0;
-}
-
-#contactForm {
-  background: var(--green);
-  padding: 3rem;
-  form {
-    display: flex;
-    width: 760px;
-    flex-shrink: 1;
-    input {
-      flex-grow: 1;
-      background: #fff;
-      border-radius: 2rem;
-      padding: 1rem 4rem 1rem 2rem;
-    }
-    button {
-      margin-left: -4rem;
-    }
-  }
-}
-
-@media (max-width: 800px) {
-  #contactForm form {
-    width: auto;
-    flex-wrap: wrap;
-    button {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
-  }
 }
 
 #subfooter {

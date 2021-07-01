@@ -10,16 +10,23 @@
   }
   img {
     margin-bottom: 2rem;
+    width: 70%;
   }
 }
 
-.grid2 {
+.grid2,
+.grid4,
+.grid6,
+.grid8,
+.grid_fullcell {
   display: grid;
+}
+
+.grid2 {
   grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 
 .grid4 {
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
 
   > div {
@@ -33,9 +40,15 @@
     margin-bottom: 1rem;
   }
 }
+.grid6 {
+  grid-template-columns: repeat(auto-fill, minmax(16%, 1fr));
+}
+
+.grid8{
+  grid-template-columns: repeat(auto-fill, minmax(12%, 1fr));
+}
 
 .grid_fullcell {
-  display: grid;
   img {
     width: 100%;
   }

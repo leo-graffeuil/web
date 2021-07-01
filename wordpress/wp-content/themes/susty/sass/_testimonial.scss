@@ -1,0 +1,131 @@
+.testimonial {
+  background: var(--white);
+  text-align: center;
+  padding: 8rem 0;
+  height: 25em;
+  max-width: 750px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 8px 8px 12px #aaa;
+  margin-bottom: 8rem;
+}
+
+.block-solutions {
+  height: 30em;
+}
+
+.testimonial {
+  h2 {
+    margin: 0;
+    margin-top: -1.7em;
+    padding: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: var(--blue);
+  }
+
+  .slides {
+    width: 400%;
+    left: 0;
+    padding-left: 0;
+    padding-top: 1em;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+
+    li {
+      width: 25%;
+      position: relative;
+      float: left;
+    }
+  }
+
+  li {
+    p {
+      margin-top: 0;
+    }
+
+    q {
+      max-width: 90%;
+      margin: auto;
+      color: #666666;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    img {
+      width: 3em;
+      height: 3em;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+      vertical-align: middle;
+    }
+
+    span.author {
+      margin-top: 0.5em;
+      font-size: 1.2em;
+      color: var(--blue);
+      display: block;
+    }
+  }
+
+  .slidesNavigation {
+    display: block;
+    list-style: none;
+    text-align: center;
+    bottom: 1em;
+    position: absolute;
+    width: 104px;
+    left: 50%;
+    margin-left: -52px;
+  }
+
+  input {
+    display: none;
+  }
+
+  .slidesNavigation label {
+    float: left;
+    margin: 6px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 2px var(--green);
+    font-size: 0;
+  }
+}
+
+#radio-1:checked ~ .slides {
+  transform: translateX(0%);
+}
+
+#radio-2:checked ~ .slides {
+  transform: translateX(-25%);
+}
+
+#radio-3:checked ~ .slides {
+  transform: translateX(-50%);
+}
+
+#radio-4:checked ~ .slides {
+  transform: translateX(-75%);
+}
+
+.testimonial {
+  .slidesNavigation label:hover {
+    cursor: pointer;
+  }
+
+  #radio-1:checked ~ .slidesNavigation label#dotForRadio-1, #radio-2:checked ~ .slidesNavigation label#dotForRadio-2, #radio-3:checked ~ .slidesNavigation label#dotForRadio-3, #radio-4:checked ~ .slidesNavigation label#dotForRadio-4 {
+    background: #2980b9;
+  }
+}
