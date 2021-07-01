@@ -116,7 +116,7 @@ get_header();
                         de leur stratégie.
                         <br>
                         Avec maintenant 10 ans d'expérience, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
-                        Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone ©.
+                        Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone ®.
                         Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairants.
 
                      </p>
