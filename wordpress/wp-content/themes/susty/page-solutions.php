@@ -26,7 +26,7 @@ get_header();
             <div class="pb-4">
                 <h2 class="text-center"><em>Toovalu</em> propose</h2>
                 <p class="text-center ml-15 mr-15">Une gamme de solution logicielle<br>
-                    au service de l'engagement des entreprises. L'outil qui vous emmène au delà du reporting !
+                    au service de l'engagement des entreprises. L'outil qui vous emmène au-delà du reporting !
                 </p>
             </div>
             <div class="grid2 pb-4">
@@ -40,7 +40,7 @@ get_header();
                         </div>
                         <div class="flex align-items-start pb-2">
                             <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                            <p class="mb-0 mr-3">Module stratégie climat - Définir vos objectifs, votre plan d'action, votre Trajectoire Bas-carbone !</p>
+                            <p class="mb-0 mr-3">Module stratégie climat - Définir vos objectifs, votre plan d'action, votre trajectoire Bas-carbone !</p>
                         </div>
 
                     </div>
@@ -49,7 +49,7 @@ get_header();
                         <p class="text-center"><strong>Faire de votre DPEF, un outil de pilotage.</strong></p>
                         <div class="flex align-items-start pb-2">
                             <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">
-                            <p class="mb-0 mr-3">Module RSE - collecter vos données extra-financière de façon collaborative et intuitive, pilotez vos objectifs et votre plan d'action.</p>
+                            <p class="mb-0 mr-3">Module RSE - collecter vos données extra-financières de façon collaborative et intuitive, pilotez vos objectifs et votre plan d'action.</p>
                         </div>
                         <div class="flex align-items-start pb-2">
                             <img class="mt-05 ml-5 mr-3" src="/wp-content/uploads/2021/06/right-arrow.png" alt="">

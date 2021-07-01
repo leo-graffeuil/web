@@ -115,7 +115,7 @@ get_header();
                         dirigeants et décisionnaires à intégrer la RSE, les enjeux climatiques et leurs impacts au cœur
                         de leur stratégie.
                         <br>
-                        Avec maintenant 10 ans d'expériences, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
+                        Avec maintenant 10 ans d'expérience, nous savons aller à l'essentiel et cibler vos besoins pour vous faire gagner du temps et agir concrètement sur le climat et la RSE.
                         Nous avons développé une approche à la fois agile et respectant la philosophie du Bilan Carbone ©.
                         Avec Toovalu, le climat & la RSE intègrent votre stratégie et deviennent des outils de pilotage utiles et éclairants.
 
@@ -187,7 +187,7 @@ get_header();
                             <p class="text-center ">Toovalu est devenue BCorp en 2017, l'une des premières à Nantes. Avec <a class="color-green pink-visited"
                                                                      href="https://www.bcorporation.fr">B-corp</a>
                                 , nous avons pour objectif de démontrer notre impact positif sur la société, et nous
-                                acceptons d’être évalué sur nos performances globales tous les deux ans</p>
+                                acceptons d’être évalués sur nos performances globales tous les deux ans</p>
                             <p class="pt-2 bt-2"><a href="/a-propos-de-nous" class="btn">En savoir +</a></p>
                         </div>
                     </div>
