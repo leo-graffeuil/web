@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "watch_sass": "yarn run build_sass -w",
+    "build_sass": "node-sass --output-style=expanded wp-content/themes/susty/style.scss wp-content/themes/susty/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
