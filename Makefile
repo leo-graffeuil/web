@@ -1,5 +1,19 @@
+DOCKER_COMPOSE = docker-compose
+DOCKER_COMPOSE_EXEC = $(DOCKER_COMPOSE) exec -T
+EXEC_WP = $(DOCKER_COMPOSE_EXEC) wordpress
+
 start:
-	docker-compose up -d --build
+	docker-compose up -d
+
+stop:
+	docker-compose stop
+
+build:
+	docker-compose build
+
+vendor:
+	$(DOCKER_COMPOSE_EXEC) -w /var/www/html/wp-content/plugins/wp2static wordpress composer install
+	$(DOCKER_COMPOSE_EXEC) -w /var/www/html/wp-content/plugins/wp2static-addon-netlify wordpress composer install
 
 healthcheck:
 	docker-compose run --rm healthcheck
@@ -7,17 +21,6 @@ healthcheck:
 down:
 	docker-compose down
 
-install: start healthcheck
+install: build start vendor healthcheck
 
-configure:
-	docker-compose -f docker-compose.yml -f wp-auto-config.yml run --rm wp-auto-config
-
-autoinstall: start
-	docker-compose -f docker-compose.yml -f wp-auto-config.yml run --rm wp-auto-config
-
-clean: down
-	@echo "💥 Removing related folders/files..."
-	@rm -rf  mysql/* wordpress/*
-
-reset: clean
 
