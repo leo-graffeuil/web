@@ -1276,9 +1276,25 @@ form .submit-container {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  #contact-form {
+    padding: 1rem;
+  }
+  #contact-form .grid2 {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+  #contact-form .grid2 > div.ml-1, #contact-form .grid2 > div.mr-1 {
+    margin: 0;
+  }
+}
+
 #demo-form {
   max-width: 60%;
   margin: 0 auto;
+}
+
+#newsletter {
+  margin: 4rem 0;
 }
 
 #newsletter form {
