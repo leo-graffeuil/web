@@ -64,7 +64,7 @@
             body: new URLSearchParams(formData).toString()
         }).then(
             () => {
-                contactForm.innerHTML =
+                contactForm.outerHTML =
                     "<div style='text-align: center;'>" +
                         "<p><strong>Merci 👍<strong></p>" +
                         "Nous vous recontacterons très rapidement,<br/>" +
@@ -111,7 +111,7 @@
             body: new URLSearchParams(formData).toString()
         }).then(
             () => {
-                demoForm.innerHTML =
+                demoForm.outerHTML =
                     "<div>" +
                         "<p><strong>Merci !<strong></p>" +
                         "Cliquez sur ce lien pour accéder à la démo :<br/>" +

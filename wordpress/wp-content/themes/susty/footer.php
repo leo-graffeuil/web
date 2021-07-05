@@ -10,13 +10,38 @@
 ?>
 <div>
 <footer>
-    <div id="contactForm" class="content">
+    <section id="newsletter" class="content">
         <div class="container">
-            <form action="">
-                <?php echo do_shortcode("[wpforms id=1436]"); ?>
+            <form id="newsletter-form" data-netlify="true">
+                <input type="email" name="email" placeholder="Je donne mon email pour recevoir la newsletter">
+                <button type="submit" class="btn btn--blue">Je m'abonne</button>
             </form>
         </div>
-    </div>
+    </section>
+
+    <script type="text/javascript">
+        const handleNewsletterFormSubmit = (e) => {
+            e.preventDefault()
+            let newsletterForm = document.getElementById('newsletter-form');
+            let formData = new FormData(newsletterForm)
+            fetch('/', {
+                method: 'POST',
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString()
+            }).then(
+                () => {
+                    newsletterForm.outerHTML =
+                        "<div>" +
+                        "<p><strong>Merci 🎉<strong></p>" +
+                        "Votre demande a bien été enregistrée !" +
+                        "</div>"
+                }
+            ).catch((error) =>
+                alert("Une erreur s'est produite, merci de réessayer dans quelques instants")
+            )
+        }
+        document.getElementById("newsletter-form").addEventListener("submit", handleNewsletterFormSubmit);
+    </script>
 
     <div id="subfooter">
         <div class="col col-2">

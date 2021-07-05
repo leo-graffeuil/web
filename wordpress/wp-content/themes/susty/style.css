@@ -1281,6 +1281,62 @@ form .submit-container {
   margin: 0 auto;
 }
 
+#newsletter form {
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+#newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  background: none;
+  width: 560px;
+}
+
+#newsletter form button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  border: 0;
+  font-size: 16px;
+  padding: 0.7rem 1rem;
+  border-radius: 50px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 800px) {
+  #newsletter .container {
+    width: 80%;
+  }
+  #newsletter form {
+    box-shadow: none;
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+    padding: 1rem;
+  }
+  #newsletter form button[type="submit"] {
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
+  #newsletter .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #newsletter .container input[type="email"] {
+    width: 600px;
+  }
+}
+
 .testimonial {
   background: var(--white);
   text-align: center;
