@@ -1149,38 +1149,38 @@ form .form-row {
   margin: 15px 0;
 }
 
-form input[type="submit"] {
+input[type="submit"] {
   margin-left: -4rem;
   background: var(--green);
 }
 
-form label {
+label {
   display: block;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-form label .required-label {
+label .required-label {
   font-weight: normal;
   color: var(--red);
 }
 
-form input[type="date"],
-form input[type="datetime"],
-form input[type="datetime-local"],
-form input[type="email"],
-form input[type="month"],
-form input[type="number"],
-form input[type="password"],
-form input[type="range"],
-form input[type="search"],
-form input[type="tel"],
-form input[type="text"],
-form input[type="time"],
-form input[type="url"],
-form input[type="week"],
-form select,
-form textarea {
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
   background-color: #e9fefd;
   border: 1px solid #e9fefd;
   padding: 5px 15px;
@@ -1188,37 +1188,37 @@ form textarea {
   width: 100%;
 }
 
-form input[type="date"]:focus,
-form input[type="datetime"]:focus,
-form input[type="datetime-local"]:focus,
-form input[type="email"]:focus,
-form input[type="month"]:focus,
-form input[type="number"]:focus,
-form input[type="password"]:focus,
-form input[type="range"]:focus,
-form input[type="search"]:focus,
-form input[type="tel"]:focus,
-form input[type="text"]:focus,
-form input[type="time"]:focus,
-form input[type="url"]:focus,
-form input[type="week"]:focus,
-form select:focus,
-form textarea:focus {
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="range"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+select:focus,
+textarea:focus {
   outline: none;
   background: var(--white);
   border: 1px solid var(--green);
   color: var(--blue);
 }
 
-form label, form input[type=text], form textarea {
+label, input[type=text], textarea {
   color: var(--blue);
 }
 
-form button,
-form input[type="button"],
-form input[type="reset"],
-form input[type="submit"],
-form a.btn {
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.btn {
   --current: var(--blue);
   border-radius: 2rem;
   padding: 1rem 1rem 1rem 2rem;
@@ -1229,11 +1229,11 @@ form a.btn {
   font-size: 1rem;
 }
 
-form button::after,
-form input[type="button"]::after,
-form input[type="reset"]::after,
-form input[type="submit"]::after,
-form a.btn::after {
+button::after,
+input[type="button"]::after,
+input[type="reset"]::after,
+input[type="submit"]::after,
+a.btn::after {
   content: "→";
   font-size: 2rem;
   padding-left: 1rem;
@@ -1241,38 +1241,38 @@ form a.btn::after {
   line-height: 0.5;
 }
 
-form button:hover, form button:focus,
-form input[type="button"]:hover,
-form input[type="button"]:focus,
-form input[type="reset"]:hover,
-form input[type="reset"]:focus,
-form input[type="submit"]:hover,
-form input[type="submit"]:focus,
-form a.btn:hover,
-form a.btn:focus {
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+a.btn:hover,
+a.btn:focus {
   cursor: pointer;
   background: white;
   border-bottom-width: 1px;
   color: var(--current);
 }
 
-form button.btn--green,
-form input[type="button"].btn--green,
-form input[type="reset"].btn--green,
-form input[type="submit"].btn--green,
-form a.btn.btn--green {
+button.btn--green,
+input[type="button"].btn--green,
+input[type="reset"].btn--green,
+input[type="submit"].btn--green,
+a.btn.btn--green {
   --current: var(--green);
 }
 
-form button.btn--pink,
-form input[type="button"].btn--pink,
-form input[type="reset"].btn--pink,
-form input[type="submit"].btn--pink,
-form a.btn.btn--pink {
+button.btn--pink,
+input[type="button"].btn--pink,
+input[type="reset"].btn--pink,
+input[type="submit"].btn--pink,
+a.btn.btn--pink {
   --current: var(--pink);
 }
 
-form .submit-container {
+.submit-container {
   text-align: center;
 }
 
@@ -1294,10 +1294,13 @@ form .submit-container {
 }
 
 #newsletter {
+  background: var(--green);
+  padding: 3rem;
   margin: 4rem 0;
 }
 
 #newsletter form {
+  background: var(--white);
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
