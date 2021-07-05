@@ -8,4 +8,3 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x  | bash -
 RUN apt-get -y install nodejs
 RUN npm install -g yarn
 
-RUN chgrp -R www-data /var/www/html/wp-content/uploads
