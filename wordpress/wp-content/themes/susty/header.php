@@ -37,6 +37,25 @@
 				?>
 			</div>
 
+            <div id="menu-toggler">
+                <a href="#">
+                    <span class="fa fa-bars fa-2x menu-principal-toggler-icons"></span>
+                    <span class="fa fa-times fa-2x menu-principal-toggler-icons hidden"></span>
+                </a>
+            </div>
+
+            <script type="text/javascript">
+                const handleMenuToggler = (e) => {
+                    e.preventDefault()
+                    let mainMenu = document.getElementsByClassName('menu-principal-container')[0];
+                    mainMenu.classList.toggle('active')
+                    let handleIcons = document.getElementsByClassName('menu-principal-toggler-icons');
+                    for (let i = 0; i < handleIcons.length; i++) {
+                        handleIcons[i].classList.toggle('hidden')
+                    }
+                }
+                document.getElementById("menu-toggler").addEventListener("click", handleMenuToggler);
+            </script>
 			<?php
 			wp_nav_menu(array(
 				'theme_location' => 'menu-1',

@@ -734,6 +734,7 @@ header#masthead > a > svg {
 
 .logo {
   flex: 0 0 17rem;
+  flex-shrink: 3;
   text-align: center;
   line-height: 0;
   margin-right: 0.5em;
@@ -749,65 +750,95 @@ svg * {
   height: 100%;
 }
 
-.menu-principal-container {
-  flex: 1;
-}
-
-#primary-menu {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-#primary-menu li {
-  margin-left: 2rem;
-  color: var(--blue);
-}
-
-#primary-menu li a {
-  color: var(--blue);
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 1rem 0;
-}
-
-#primary-menu li a:hover, #primary-menu li a:focus {
-  border-bottom: 1px solid var(--green);
-}
-
-#primary-menu li.btn-appel-action a {
-  white-space: nowrap;
-  background: var(--green);
-  color: var(--white);
-  border-radius: 2rem;
-  padding: 1rem 1rem 1rem 2rem;
-  border: 1px solid var(--green);
-}
-
-#primary-menu li.btn-appel-action a::after {
-  content: "→";
-  font-size: 2rem;
-  padding-left: 1rem;
-  vertical-align: middle;
-  line-height: 0.5;
-}
-
-#primary-menu li.btn-appel-action a:hover, #primary-menu li.btn-appel-action a:focus {
-  background: white;
-  border-bottom-width: 1px;
-  color: var(--green);
-}
-
-@media (max-width: 800px) {
-  header#masthead,
-  #primary-menu {
-    flex-wrap: wrap;
-    align-items: flex-start;
+@media (min-width: 800px) {
+  #menu-toggler {
+    display: none;
   }
-  header#masthead li,
+  #primary-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+  }
   #primary-menu li {
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    color: var(--blue);
+  }
+  #primary-menu li a {
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 1rem 0;
+  }
+  #primary-menu li a:hover, #primary-menu li a:focus {
+    border-bottom: 1px solid var(--green);
+  }
+  #primary-menu li.btn-appel-action a {
+    white-space: nowrap;
+    background: var(--green);
+    color: var(--white);
+    border-radius: 2rem;
+    padding: 1rem 1rem 1rem 2rem;
+    border: 1px solid var(--green);
+  }
+  #primary-menu li.btn-appel-action a::after {
+    content: "→";
+    font-size: 2rem;
+    padding-left: 1rem;
+    vertical-align: middle;
+    line-height: 0.5;
+  }
+  #primary-menu li.btn-appel-action a:hover, #primary-menu li.btn-appel-action a:focus {
+    background: white;
+    border-bottom-width: 1px;
+    color: var(--green);
+  }
+}
+
+@media (max-width: 799px) {
+  .admin-bar .menu-principal-container {
+    top: 140px;
+  }
+  .menu-principal-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    background: white;
+    border-bottom: 1px solid #999;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  .menu-principal-container.active {
+    display: block;
+  }
+  .menu-principal-container #primary-menu {
+    padding: 0;
+    list-style: none;
+  }
+  .menu-principal-container #primary-menu li {
+    text-align: center;
+    line-height: 4rem;
+  }
+  .menu-principal-container #primary-menu li:hover a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: var(--green);
+    color: var(--white);
+  }
+  #menu-toggler {
+    align-self: flex-end;
+    margin-right: 1rem;
+  }
+  #menu-toggler .menu-principal-toggler-icons.hidden {
+    display: none;
+  }
+  header#masthead {
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 

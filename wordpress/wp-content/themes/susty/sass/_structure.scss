@@ -36,6 +36,7 @@ header#masthead > a > svg {
 
 .logo {
   flex: 0 0 17rem;
+  flex-shrink: 3;
   text-align: center;
   line-height: 0;
   margin-right: 0.5em;
@@ -50,62 +51,109 @@ svg * {
   width: 100%;
   height: 100%;
 }
-
-.menu-principal-container {
-  flex: 1;
-}
-
-#primary-menu {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  li {
-    margin-left: 2rem;
-    color: var(--blue);
-    a {
+@media (min-width: 800px) {
+  #menu-toggler {
+    display: none;
+  }
+  #primary-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    li {
+      margin-bottom: 1rem;
+      margin-left: 2rem;
       color: var(--blue);
-      font-size: 0.9rem;
-      font-weight: bold;
-      padding: 1rem 0;
-      &:hover,
-      &:focus {
-        border-bottom: 1px solid var(--green);
-      }
-    }
 
-    &.btn-appel-action a {
-      white-space: nowrap;
-      background: var(--green);
-      color: var(--white);
-      border-radius: 2rem;
-      padding: 1rem 1rem 1rem 2rem;
-      border: 1px solid var(--green);
-      &::after {
-        content: "→";
-        font-size: 2rem;
-        padding-left: 1rem;
-        vertical-align: middle;
-        line-height: 0.5;
+      a {
+        color: var(--blue);
+        font-size: 0.9rem;
+        font-weight: bold;
+        padding: 1rem 0;
+
+        &:hover,
+        &:focus {
+          border-bottom: 1px solid var(--green);
+        }
       }
-      &:hover,
-      &:focus {
-        background: white;
-        border-bottom-width: 1px;
-        color: var(--green);
+
+      &.btn-appel-action a {
+        white-space: nowrap;
+        background: var(--green);
+        color: var(--white);
+        border-radius: 2rem;
+        padding: 1rem 1rem 1rem 2rem;
+        border: 1px solid var(--green);
+
+        &::after {
+          content: "→";
+          font-size: 2rem;
+          padding-left: 1rem;
+          vertical-align: middle;
+          line-height: 0.5;
+        }
+
+        &:hover,
+        &:focus {
+          background: white;
+          border-bottom-width: 1px;
+          color: var(--green);
+        }
       }
     }
   }
 }
 
-@media (max-width: 800px) {
-  header#masthead,
-  #primary-menu {
-    flex-wrap: wrap;
-    align-items: flex-start;
-    li {
-      margin-bottom: 1rem;
+@media (max-width: 799px) {
+  .admin-bar {
+    .menu-principal-container {
+      top: 140px;
     }
+  }
+  .menu-principal-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0;
+    background: white;
+    border-bottom: 1px solid #999;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    &.active {
+      display: block;
+    }
+    #primary-menu {
+      padding: 0;
+      list-style: none;
+      li {
+        text-align: center;
+        line-height: 4rem;
+        &:hover {
+          a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            background: var(--green);
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+  #menu-toggler {
+    align-self: flex-end;
+    margin-right: 1rem;
+    .menu-principal-toggler-icons {
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+
+  header#masthead {
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 
