@@ -73,7 +73,7 @@
             }
         ).catch((error) =>
             alert("Une erreur s'est produite, merci de réessayer dans quelques instants")
-        )
+        );
     }
     document.getElementById("contact-form").addEventListener("submit", handleContactFormSubmit);
 </script>
@@ -102,9 +102,9 @@
 
 <script type="text/javascript">
     const handleDemoFormSubmit = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         let demoForm = document.getElementById('demo-form');
-        let formData = new FormData(demoForm)
+        let formData = new FormData(demoForm);
         fetch('/', {
             method: 'POST',
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -115,12 +115,13 @@
                     "<div>" +
                         "<p><strong>Merci !<strong></p>" +
                         "Cliquez sur ce lien pour accéder à la démo :<br/>" +
-                        "👉 <a href='#'>Démo</a>" +
-                    "</div>"
+                        "👉 <a href='https://youtu.be/seJHyHsDhkc' target='_blank'>Démo</a>" +
+                    "</div>";
             }
         ).catch((error) =>
             alert("Une erreur s'est produite, merci de réessayer dans quelques instants")
-        )
+        );
     }
     document.getElementById("demo-form").addEventListener("submit", handleDemoFormSubmit);
 </script>
+
