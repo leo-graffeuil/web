@@ -106,6 +106,18 @@ svg * {
 }
 
 @media (max-width: 799px) {
+  .flex-space-around {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    > a {
+      margin: 1rem;
+    }
+  }
+}
+@media (max-width: 799px) {
   .admin-bar {
     .menu-principal-container {
       top: 140px;

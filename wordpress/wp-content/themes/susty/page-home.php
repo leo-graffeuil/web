@@ -106,8 +106,9 @@ get_header();
                 </div>
             </div>
             <div class="grid2 pb-2">
-                <div class="grid_fullcell alignItemCenter"><img src="/wp-content/uploads/2021/06/1536-1024.jpeg"
-                                                            alt="equipe-toovalu" aria-label="equipe-toovalu"></div>
+                <div class="grid_fullcell alignItemCenter">
+                    <img src="/wp-content/uploads/2021/06/1536-1024.jpeg" alt="equipe-toovalu" aria-label="equipe-toovalu">
+                </div>
                 <div>
                     <h2 class="text-center pt-0">La Toovalu <em>Touch !</em></h2>
                     <p class="mr-3 ml-3">Une <strong>Technologie</strong> proposant un pilotage de l’entreprise par
@@ -121,7 +122,7 @@ get_header();
 
                      </p>
                     <p class="text-center pt-2 pb-2"><a href="/a-propos-de-nous" class="btn">À propos de nous</a></p>
-                    <div class="grid4">
+                    <div class="grid4 grid4-sm grid2-xs">
                         <div class="text-center">
                             <p>Piloter</p><img src="/wp-content/uploads/2021/06/Groupe-79.png" alt="toovalu-seminaire" aria-label="toovalu-seminaire">
                         </div>
@@ -137,7 +138,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="grid4">
+            <div class="grid4 grid2-sm">
                 <div class="bg-blue">
                     <h3 class="text-center"><span class="text-center ff-light">Un</span><span> BILAN CARBONE</span></h3<br>
                     <p class="text-center ff-light"> qui voit loin!</p>
