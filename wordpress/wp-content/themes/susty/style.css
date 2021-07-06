@@ -1347,7 +1347,7 @@ svg * {
 
 @media (max-width: 799px) {
   .admin-bar .menu-principal-container {
-    top: 140px;
+    top: 139px;
   }
   .menu-principal-container {
     display: none;
@@ -1378,7 +1378,6 @@ svg * {
     color: var(--white);
   }
   #menu-toggler {
-    align-self: flex-end;
     margin-right: 1rem;
   }
   #menu-toggler .menu-principal-toggler-icons.hidden {
@@ -1486,6 +1485,25 @@ svg * {
 
 #footer_sharing a span {
   font-size: 2rem;
+}
+
+@media (max-width: 799px) {
+  #subfooter {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #subfooter #footer_sharing {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  #subfooter #footer_sharing li {
+    margin: 0 10px;
+    border: 0;
+  }
+  #subfooter #footer_sharing li a {
+    padding: 1rem;
+  }
 }
 
 article header {

@@ -120,7 +120,7 @@ svg * {
 @media (max-width: 799px) {
   .admin-bar {
     .menu-principal-container {
-      top: 140px;
+      top: 139px;
     }
   }
   .menu-principal-container {
@@ -154,7 +154,6 @@ svg * {
     }
   }
   #menu-toggler {
-    align-self: flex-end;
     margin-right: 1rem;
     .menu-principal-toggler-icons {
       &.hidden {
@@ -257,6 +256,24 @@ svg * {
     display: block;
     span {
       font-size: 2rem;
+    }
+  }
+}
+@media (max-width: 799px) {
+  #subfooter {
+    flex-direction: column-reverse;
+    align-items: center;
+    #footer_sharing {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0 10px;
+        border: 0;
+        a {
+          padding: 1rem;
+        }
+      }
     }
   }
 }
