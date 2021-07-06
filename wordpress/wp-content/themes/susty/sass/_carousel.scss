@@ -57,37 +57,6 @@ ul.slides input {
   color: #fff;
 }
 
-.flex-space-around {
-  display: flex;
-  justify-content: space-around;
-}
-
-.flex {
-  display: flex;
-}
-
-.alignItemCenter {
-  align-items: center;
-}
-
-.flex-center {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-align-items {
-  display: flex;
-  align-items: center;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.align-items-start {
-  align-items: start;
-}
-
 input:checked + .slide-container .carousel-controls label {
   display: flex;
   height: 450px;
