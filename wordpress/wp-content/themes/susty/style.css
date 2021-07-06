@@ -1409,6 +1409,12 @@ svg * {
   flex-shrink: 1;
 }
 
+@media (max-width: 500px) {
+  .content {
+    display: block;
+  }
+}
+
 .content--green {
   background: var(--green);
   color: var(--white);
@@ -1927,8 +1933,14 @@ a.btn.btn--pink {
 }
 
 #demo-form {
-  max-width: 60%;
+  padding: 1rem;
   margin: 0 auto;
+}
+
+@media (min-width: 799px) {
+  #demo-form {
+    max-width: 500px;
+  }
 }
 
 #newsletter {

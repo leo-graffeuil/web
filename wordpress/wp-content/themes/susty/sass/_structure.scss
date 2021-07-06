@@ -186,6 +186,11 @@ svg * {
     flex-shrink: 1;
   }
 }
+@media (max-width: 500px) {
+  .content {
+    display: block;
+  }
+}
 .content--green {
   background: var(--green);
   color: var(--white);

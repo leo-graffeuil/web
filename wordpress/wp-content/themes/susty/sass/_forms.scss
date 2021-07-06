@@ -101,8 +101,14 @@ a.btn {
 }
 
 #demo-form {
-  max-width: 60%;
+  padding: 1rem;
   margin: 0 auto;
+}
+
+@media (min-width: 799px) {
+  #demo-form {
+    max-width: 500px;
+  }
 }
 
 #newsletter {
