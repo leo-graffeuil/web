@@ -1332,11 +1332,15 @@ a.btn.btn--pink {
     width: 80%;
   }
   #newsletter form {
+    background: none;
     box-shadow: none;
   }
   #newsletter form input[type="email"] {
     width: 100%;
     padding: 1rem;
+    background: var(--white);
+    margin-bottom: 1rem;
+    border-radius: 50px;
   }
   #newsletter form button[type="submit"] {
     width: 100%;

@@ -146,11 +146,15 @@ a.btn {
       width: 80%;
     }
     form {
+      background: none;
       box-shadow: none;
 
       input[type="email"] {
         width: 100%;
         padding: 1rem;
+        background: var(--white);
+        margin-bottom: 1rem;
+        border-radius: 50px;
       }
 
       button[type="submit"] {
