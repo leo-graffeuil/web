@@ -180,7 +180,7 @@ svg * {
   display: flex;
   justify-content: center;
   .container {
-    max-width: 760px;
+    max-width: 100%;
     flex-grow: 0;
     flex-shrink: 1;
   }
@@ -189,6 +189,10 @@ svg * {
   .content {
     display: block;
   }
+}
+
+article header h1 {
+  display: none;
 }
 .content--green {
   background: var(--green);

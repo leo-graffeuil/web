@@ -30,6 +30,17 @@ article {
     font-weight: bold;
   }
 }
+.post-template-default{
+  .content {
+    display: flex;
+    justify-content: center;
+    .container {
+      max-width: 1080px;
+      flex-grow: 0;
+      flex-shrink: 1;
+    }
+  }
+}
 
 .sharing {
   font-size: 0.9rem;
@@ -86,92 +97,43 @@ article {
 
 /* BLOG */
 
-.mt-5r {
-  margin-top: 5rem;
-}
-
-.blog {
-  box-sizing: border-box;
-}
-
-.our-blog {
-  background-color: var(--white);
-  padding: 100px 0;
-}
-
-.container-blog {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.row-blog {
+.display-posts-listing{
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.text-center-blog {
-  text-align: center;
-  font-size: 18px;
-
-  h2 {
-    font-weight: 500;
-    font-size: 1.6em;
-
-    span {
-      font-weight: 800;
-    }
+.listing-item{
+  margin: 4rem;
+  flex-direction: column;
+  display: flex;
+}
+.listing-item{
+  img{
+    width: 10rem;
+    height: 7rem;
   }
-
-  p {
-    max-width: 500px;
-    margin: 0 auto;
-    color: #6c757d;
-    line-height: 1.5;
-    font-size: 1em;
+}
+.listing-item{
+  a{
+    align-items: center;
   }
 }
 
-.col-blog {
-  width: 50%;
+.display-posts-listing.image-left .listing-item {
   overflow: hidden;
-  padding: 15px;
-
-  .card-blog {
-    width: 100%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    border: 0;
-  }
-
-  .card-body {
-    padding: 0 15px 15px 15px;
-    background-color: #fff;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
+  margin-bottom: 32px;
+  width: 80%;
 }
 
-.card-body h5 {
-  font-size: 24px;
-  margin: 7px 0;
-  a {
-    color: var(black);
-  }
+.display-posts-listing.image-left .image {
+  float: left;
+  margin: 0 16px 0 0;
 }
 
-.card {
-  &:hover {
-    transform: translateY(-10px);
-    transition: transform 0.3s ease;
-  }
+.display-posts-listing.image-left .title {
+  display: block;
+}
 
-  p {
-    color: #6c757d;
-  }
+.display-posts-listing.image-left .excerpt-dash {
+  display: none;
 }

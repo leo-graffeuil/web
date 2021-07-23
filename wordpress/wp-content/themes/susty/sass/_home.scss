@@ -5,12 +5,12 @@
     font-weight: 300;
     font-size: 1.9rem;
     strong {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
   img {
     margin-bottom: 2rem;
-    width: 70%;
+    width: 30%;
   }
 }
 
@@ -128,4 +128,44 @@
       width: 100%;
     }
   }
+
+  .wp-block-latest-posts.wp-block-latest-posts__list{
+    display: flex;
+    background: var(--white);
+    text-align: left;
+    padding: 0;
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  //block article
+.wp-block-latest-posts__post-date{
+  color: var(--blue);
+}
+  //suppression du bandeau de titre de la page
+  article header {
+    background: none  ;
+    color: unset;
+    text-align: unset;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  // image planète
+  #homepage_header {
+    .actu {
+      img {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// block b-corp
+.wp-block-columns{
+  margin-left: 4rem;
+  margin-right: 4rem;
 }

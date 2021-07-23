@@ -19,8 +19,6 @@ build_sass:
 	$(YARN) build_sass
 
 vendor:
-	$(DOCKER_COMPOSE_EXEC) -w /var/www/html/wp-content/plugins/wp2static wordpress composer install
-	$(DOCKER_COMPOSE_EXEC) -w /var/www/html/wp-content/plugins/wp2static-addon-netlify wordpress composer install
 	$(YARN) install --force
 
 healthcheck:
