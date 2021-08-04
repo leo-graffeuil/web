@@ -175,7 +175,7 @@ var _metabox_fields = {
         changeMonth: true,
         changeYear: true,
         defaultDate: new Date(),
-        yearRange:'1970:2025'
+        yearRange:'1800:2025'
       } ).attr("placeholder", "mm/dd/yy hh:mm").attr('class','dpDate');
 
 

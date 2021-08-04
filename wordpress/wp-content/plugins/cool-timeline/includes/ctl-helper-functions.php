@@ -1,15 +1,20 @@
 <?php
   // getting story date 
- function ctlfree_get_story_date($post_id,$date_formats) {
-    $ctl_story_date = get_post_meta($post_id, 'ctl_story_date', true);
-    if ($ctl_story_date) {
-		$posted_date='';
-          if (strtotime($ctl_story_date)!==false) {
-              $posted_date = date_i18n(__("$date_formats", 'cool-timeline'), strtotime("$ctl_story_date"));
+function ctlfree_get_story_date($post_id,$date_formats) {
+  $ctl_story_date = get_post_meta($post_id, 'ctl_story_date', true);
+  if ($ctl_story_date) {
+        if (strtotime($ctl_story_date)!==false) {
+            $posted_date = date_i18n(__("$date_formats", 'cool-timeline'), strtotime("$ctl_story_date"));
+        } else {
+            $ctl_story_date = trim( str_ireplace(array('am','pm'),'',$ctl_story_date) );
+            $dateobj = DateTime::createFromFormat('m/d/Y H:i',$ctl_story_date ,wp_timezone());
+            if($dateobj){
+             $posted_date = $dateobj->format(__("$date_formats", 'cool-timeline'));
             }
-            return  $posted_date;
-         }
-  }  
+            }
+          return  $posted_date;
+       }
+}
 /*
 Create own custom timestamp for stories
 */

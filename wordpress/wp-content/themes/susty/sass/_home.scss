@@ -13,6 +13,10 @@
     width: 30%;
   }
 }
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  flex-direction: column;
+  max-height: 15rem;
+}
 
 @media (min-width: 400px) and (max-width: 999px) {
   .grid2-sm,
@@ -156,11 +160,9 @@
 
   // image planète
   #homepage_header {
-    .actu {
       img {
         margin-bottom: 0;
       }
-    }
   }
 }
 

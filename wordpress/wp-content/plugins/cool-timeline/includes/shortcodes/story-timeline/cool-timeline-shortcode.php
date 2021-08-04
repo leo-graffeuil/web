@@ -41,7 +41,8 @@ if (!class_exists('CoolTimelineShortcode')) {
 			global $post;
 			$ctl_options_arr = get_option('cool_timeline_options');
 			$ctl_content_length = isset($ctl_options_arr['content_length'])?$ctl_options_arr['content_length']:100;
-			if ($post->post_type == 'cool_timeline' && !is_single() ){
+			if (isset($post->post_type) &&
+				$post->post_type == 'cool_timeline' && !is_single() ){
 				return $ctl_content_length;
 				}
 			return $length;
@@ -129,7 +130,7 @@ if (!class_exists('CoolTimelineShortcode')) {
 			$display_year = '';	$wrp_cls='';$ctl_format_html='';$ctl_html_no_cont='';$st_cls=''; $post_content="";
 			 $horizontal_html="";
 			 // custom date format
-			$format =__('d/M/Y','cool-timeline');
+			$format =__(' d/M/Y','cool-timeline1');
 		    $year_position = 2;
 			$i = 0;
 
@@ -208,7 +209,8 @@ if (!class_exists('CoolTimelineShortcode')) {
 				  $container_cls=strtolower($container_cls);
 				// grabing stories posted date for later use
 				$posted_date=ctlfree_get_story_date($p_id,$date_format);
-				
+				//var_dump($posted_date);	
+
 				// grabing stories content according to the  dynamic settings 
 				 if($story_desc_type=='full'){
 					$post_content =apply_filters( 'the_content', get_the_content() );

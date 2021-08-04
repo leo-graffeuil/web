@@ -62,7 +62,7 @@ add_action( 'plugins_loaded', function () {
 					),
 					'order'=> array(
 						'type' => 'string',
-						'default' =>'',
+						'default' =>'DESC',
 					),
 					'storycontent'=> array(
 						'type' => 'string',

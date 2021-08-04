@@ -1,9 +1,9 @@
 ﻿=== Cool Timeline ===
 Contributors: narinder-singh,satindersingh,coolplugins
-Tags: timeline, events, history, roadmap, event timeline, horizontal timeline, vertical timeline, story timeline, event, calendar, events manager, timeline block
+Tags: timeline, events, history, roadmap, event timeline, horizontal timeline, vertical timeline, story timeline, event, elementor, events manager, timeline block
 Donate link: https://cooltimeline.com
-Requires at least:4.0
-Tested up to: 5.7
+Requires at least:4.5
+Tested up to: 5.8
 Stable tag: trunk
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -264,6 +264,17 @@ function ctl_stories_readmore($read_more_text) {
 7. Create any type of timeline using Cool timeline PRO .
 
 == Changelog ==
+= Version 2.1 | 13 July 2021 =
+* Added: Story Ordering/sorting feature in Instant timeline builder block
+* Added: Extended support for an older Years from 1800 to 1970 years and dates 
+* Added:- Alt tag in Instant Timeline Builder images
+* Fixed: VC addon integration not working
+* Fixed: story wrong order bug
+* Fixed:- Timeline Year issue in Spanish language
+* Updated: Gutenberg Timeline block code and libararies
+* Updated: Deprecated libararies from timeline block
+* Updated: tested upto 5.8
+
 = Version 2.0.7 | 09 March 2021 =
 * Fixed :-Minor localize script issue
 

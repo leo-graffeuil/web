@@ -1674,6 +1674,11 @@ article a {
   width: 30%;
 }
 
+.wp-block-latest-posts.wp-block-latest-posts__list {
+  flex-direction: column;
+  max-height: 15rem;
+}
+
 @media (min-width: 400px) and (max-width: 999px) {
   .grid2-sm,
   .grid4-sm,
@@ -1792,7 +1797,7 @@ article a {
     padding: 0;
     margin-bottom: 0;
   }
-  #homepage_header .actu img {
+  #homepage_header img {
     margin-bottom: 0;
   }
 }

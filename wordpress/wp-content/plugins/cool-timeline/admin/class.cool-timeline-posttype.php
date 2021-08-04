@@ -82,10 +82,19 @@ if(!class_exists('CoolTimelinePosttype'))
         case "story_year":
         $ctl_story_date =get_post_meta($post_id, 'ctl_story_date', true);
         $story_timestamp=strtotime($ctl_story_date);
-        if( $story_timestamp!==false){
-        $story_year=date("Y", $story_timestamp);
-        echo"<p><strong>" . esc_html($story_year) . "</strong></p>";
+
+        if( $story_timestamp!==false)
+        {
+            $story_year=date("Y", $story_timestamp);
+            echo"<p><strong>" . esc_html($story_year) . "</strong></p>";
+        }else {
+            $ctl_story_date = trim( str_ireplace(array('am','pm'),'',$ctl_story_date) );
+            $dateobj = DateTime::createFromFormat('m/d/Y H:i',$ctl_story_date ,wp_timezone());
+            if($dateobj){
+              echo"<p><strong>" . $dateobj->format(__("Y", 'cool-timeline1')). "</strong></p>";
+            }
         }
+
          break;
 
          case "story_date":

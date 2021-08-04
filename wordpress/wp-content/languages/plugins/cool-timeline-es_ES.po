@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Cool Timeline - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-04-30 06:50:46+0000\n"
+"PO-Revision-Date: 2021-07-13 08:02:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,12 +11,13 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: Plugins - Cool Timeline - Development (trunk)\n"
 
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:314
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:322
+#: admin/class.cool-timeline-posttype.php:94
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:316
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:324
 msgid "Y"
 msgstr "Y"
 
-#: cooltimeline.php:259
+#: cooltimeline.php:261
 msgid "Submit Review ★★★★★"
 msgstr "Envía una reseña ★★★★★"
 
@@ -32,7 +33,7 @@ msgstr "https://coolplugins.net/our-cool-plugins-list/"
 msgid "Cool Timeline Settings"
 msgstr "Ajustes de Cool Timeline"
 
-#: cooltimeline.php:261
+#: cooltimeline.php:263
 msgid "Upgrade to Pro version"
 msgstr "Actualizar a la versión Pro"
 
@@ -53,7 +54,7 @@ msgstr "Título suceso"
 msgid "I already rated it"
 msgstr "Ya lo he puntuado."
 
-#: cooltimeline.php:257
+#: cooltimeline.php:259
 msgid "If you find our plugin and support helpful.<br>Please rate and review us,It helps us grow <br>and improve our services"
 msgstr "Si te ha gustado nuestro plugin y el soporte ha sido de ayuda.<br>Por favor, haznos una valoración y haz reseña, ya que nos ayudará a crecer <br> y mejorar nuestros servicios"
 
@@ -65,7 +66,7 @@ msgstr "No, no es suficientemente bueno, ¡no me gustaría valorarlo!"
 msgid "Story image size"
 msgstr "Tamaño de imagen de la historia"
 
-#: cooltimeline.php:246
+#: cooltimeline.php:248
 msgid "Please Give Us Your Feedback"
 msgstr "Por favor déjanos una reseña"
 
@@ -77,19 +78,19 @@ msgstr "Por favor introduce un número de palabras"
 msgid "This option is overridden by shortcode. Please check shortcode generator."
 msgstr "Esta opción se anulará por un shortcode. Por favor, utiliza el generador de shortcodes."
 
-#: includes/ctl-helper-functions.php:458
+#: includes/ctl-helper-functions.php:463
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: includes/ctl-helper-functions.php:457
+#: includes/ctl-helper-functions.php:462
 msgid "&laquo;"
 msgstr "&laquo;"
 
-#: includes/ctl-helper-functions.php:447
+#: includes/ctl-helper-functions.php:452
 msgid " Page "
 msgstr " Página "
 
-#: includes/ctl-helper-functions.php:446
+#: includes/ctl-helper-functions.php:451
 msgid " of "
 msgstr " de "
 
@@ -113,12 +114,8 @@ msgstr "Pequeña"
 msgid "Full"
 msgstr "Completa"
 
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:132
-msgid "d/M/Y"
-msgstr "d/M/A"
-
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:435
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:441
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:437
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:443
 msgid "F j"
 msgstr "j F"
 
@@ -163,6 +160,7 @@ msgid "Add New"
 msgstr "Añadir nueva"
 
 #: admin/class.cool-timeline-posttype.php:32
+#: includes/gutenberg-instant-builder/dist/blocks.build.js:207
 msgid "Add New Story"
 msgstr "Añadir nuevo suceso"
 
@@ -230,6 +228,7 @@ msgid "Background Color"
 msgstr "Color de fondo"
 
 #: admin/cool-timeline-settings.php:67
+#: includes/gutenberg-block/dist/block.js:84
 #: includes/gutenberg-block/src/block.js:195
 msgid "Stories Description?"
 msgstr "¿Descripción de historias?"
@@ -243,6 +242,7 @@ msgid "Style Settings"
 msgstr "Ajustes de Estilo"
 
 #: admin/cool-timeline-settings.php:29 admin/cool-timeline-settings.php:49
+#: includes/gutenberg-instant-builder/dist/blocks.build.js:207
 msgid "General Settings"
 msgstr "Ajustes generales"
 
@@ -438,7 +438,7 @@ msgstr "Para exportar los ajustes guardados haz clic en el botón Exportar a con
 msgid "Cool Timeline is a responsive WordPress timeline plugin that allows you to create beautiful vertical storyline. You simply create posts, set images and date then Cool Timeline will automatically populate these posts in chronological order, based on the year and date"
 msgstr "Cool Timeline es una linea de tiempo adaptable para WordPress que te permite crear una linea preciosa vertical. Tan sólo tendrás que crear entradas, adjuntar imágenes y asignar su fecha, y Cool Timeline ordenará automáticamente las entradas basadas en el año y fecha"
 
-#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:353
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:355
 msgid "Sorry,You have not added any story yet"
 msgstr "Lo siento, no has añadido ningún suceso todavía"
 
@@ -465,3 +465,7 @@ msgstr "Cool Timeline"
 #. Plugin URI of the plugin
 msgid "https://cooltimeline.com"
 msgstr "https://cooltimeline.com"
+
+#: includes/shortcodes/story-timeline/cool-timeline-shortcode.php:133
+msgid " d/M/Y"
+msgstr " d/M/Y"
