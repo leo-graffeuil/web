@@ -48,6 +48,30 @@ ul.cards{
   max-height: 15rem;
 }
 
+@media (max-width: 900px) {
+  ul.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    li.card {
+      width: auto;
+      grid-gap: 1rem;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  ul.cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 499px) {
+  ul.cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media (min-width: 400px) and (max-width: 999px) {
   .grid2-sm,
   .grid4-sm,
