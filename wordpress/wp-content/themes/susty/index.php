@@ -11,9 +11,6 @@ get_header();
 ?>
 
 
-<div class="actu">
-    <?php echo do_shortcode("[display-posts  posts_per_page=1000 include_date=true order=DESC include_excerpt=true image_size=thumbnail-medium wrapper=div wrapper_class=display-posts-listing image-left]"); ?>
-
-</div>
+<?php echo do_shortcode("[display-posts  posts_per_page=1000 include_date=true order=DESC include_excerpt=true image_size=thumbnail-medium wrapper=div wrapper_class=display-posts-listing image-left]"); ?>
 
 <?php get_footer(); ?>

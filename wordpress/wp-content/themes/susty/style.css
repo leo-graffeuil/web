@@ -1666,12 +1666,49 @@ article a {
 }
 
 #homepage_header h1 strong {
+  font-size: 3rem;
+}
+
+#homepage_header h2 {
   font-size: 2rem;
+  line-height: 1.2;
 }
 
 #homepage_header img {
   margin-bottom: 2rem;
-  width: 30%;
+}
+
+.actu {
+  padding: 10px;
+  background-color: var(--blue);
+}
+
+ul.cards {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+
+ul.cards .card {
+  align-items: flex-start;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 25px;
+  padding: 0 20px 20px 20px;
+}
+
+ul.cards .card a {
+  color: var(--blue);
+  font-weight: normal;
+}
+
+ul.cards .card h3 {
+  color: var(--green);
+  font-weight: bold;
+}
+
+ul.cards .card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .wp-block-latest-posts.wp-block-latest-posts__list {
