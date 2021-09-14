@@ -39,12 +39,16 @@
 		<div class="container">
 			<div class="sharing">
 				<span class="text">Partager l'article</span>
-				<a href="#" class="icon"><span class="dashicons dashicons-email"></span></a>
-				<a href="#" class="icon"><span class="dashicons dashicons-linkedin"></span></a>
-				<a href="#" class="icon"><span class="dashicons dashicons-twitter"></span></a>
-				<a href="#" class="icon"><span class="dashicons dashicons-facebook-alt"></span></a>
+				<?php /*<a href="" class="icon"><span class="dashicons dashicons-email"></span></a>*/ ?>
+                <?php $articleTitle = get_the_title(); ?>
+                <?php $articleSummary = get_the_excerpt(); ?>
+                <?php $articleUrl = get_permalink(); ?>
+				<a href="#" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent('<?php echo $articleUrl; ?>') + '&title=' + encodeURIComponent('<?php echo $articleTitle; ?>') + '&summary=' + encodeURIComponent('<?php echo $articleSummary; ?>'),'linkedin-share-dialog','width=626,height=436'); return false;" class="icon"><span class="dashicons dashicons-linkedin"></span></a>
+				<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('<?php echo $articleUrl; ?>'),'facebook-share-dialog','width=626,height=436'); return false;" class="icon"><span class="dashicons dashicons-facebook-alt"></span></a>
+				<a href="#" onclick="window.open('http://twitter.com/share?url=' + encodeURIComponent('<?php echo $articleUrl; ?>') + ';text=' + encodeURIComponent('<?php echo $articleTitle; ?>') + ';size=l&amp;count=none','twitter-share-dialog','width=626,height=436'); return false;" class="icon"><span class="dashicons dashicons-twitter"></span></a>
 			</div>
-			<?php
+
+            <?php
 			the_content(sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */

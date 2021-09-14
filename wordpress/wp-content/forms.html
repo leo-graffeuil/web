@@ -125,3 +125,80 @@
     document.getElementById("demo-form").addEventListener("submit", handleDemoFormSubmit);
 </script>
 
+<!-- Download WHITE BOOK form -->
+<a class="btn btn--green whitebook-downloader" data-white-book-id="whitebook-dpef-success-form">Je télécharge le livre blanc </a>
+<form data-netlify="true" id="whitebook-dpef-success-form" style="display:none;">
+    <div class="grid2">
+        <div class="mr-1">
+            <label for="whitebook-dpef-success-form-firstname">
+                Nom
+                <span class="required-label">*</span>
+            </label>
+            <input type="text" name="firstname" id="whitebook-dpef-success-form-firstname" required="" placeholder="Prénom" />
+        </div>
+        <div class="ml-1">
+            <label for="whitebook-dpef-success-form-lastname" style="visibility: hidden;">
+                -
+                <span class="required-label">*</span>
+            </label>
+            <input type="text" name="lastname" id="whitebook-dpef-success-form-lastname" required="" placeholder="Nom" />
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="whitebook-dpef-success-company">
+            Société
+            <span class="required-label">*</span>
+        </label>
+        <input type="text" name="company" id="whitebook-dpef-success-company" required="">
+    </div>
+    <div class="form-row">
+        <label for="whitebook-dpef-success-email">
+            E-mail
+            <span class="required-label">*</span>
+        </label>
+        <input type="email" name="email" id="whitebook-dpef-success-email" required="">
+    </div>
+    <div class="submit-container">
+        <button type="submit" class="btn btn--green">
+            Recevoir le livre blanc
+        </button>
+    </div>
+</form>
+
+<script type="text/javascript">
+    const handleWhiteBookLinkClick = (e) => {
+        e.preventDefault();
+        e.target.style.display = "none"
+        let whiteBookDPEFForm = document.getElementById(e.target.dataset.whiteBookId);
+        whiteBookDPEFForm.style.display = "block"
+    }
+    var whitebookDownloaders = document.getElementsByClassName("whitebook-downloader")
+    for(var i = 0; i < whitebookDownloaders.length; i++) {
+        whitebookDownloaders[i].addEventListener("click", handleWhiteBookLinkClick);
+    }
+    const handleWhiteBookSubmit = (e) => {
+        e.preventDefault();
+        let whiteBookDPEFForm = document.getElementById('whitebook-dpef-success-form');
+        let formData = new FormData(whiteBookDPEFForm);
+        fetch('/', {
+            method: 'POST',
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString()
+        }).then(
+            () => {
+                whiteBookDPEFForm.outerHTML =
+                    "<div class=\"alert alert-success\" role=\"alert\">\n" +
+                    "    <h4 class=\"alert-heading\">Parfait !</h4>\n" +
+                    "    <p>Vous pouvez télécharger votre exemplaire en cliquant sur le lien ci-dessous et n'hésitez pas à nous dire ce que vous en pensez :</p>\n" +
+                    "    <a class='btn' style=\"margin: 1rem 0; display: inline-block;\">Télécharger le livre blanc</a>\n" +
+                    "</div>";
+            }
+        ).catch((error) =>
+            alert("Une erreur s'est produite, merci de réessayer dans quelques instants")
+        );
+    }
+    document.getElementById("whitebook-dpef-success-form").addEventListener("submit", handleWhiteBookSubmit);
+</script>
+
+
+

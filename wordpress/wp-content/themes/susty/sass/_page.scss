@@ -30,7 +30,14 @@ article {
     font-weight: bold;
   }
 }
+
+body.page article header h1 {
+  display: none;
+}
 .post-template-default{
+  article header h1 {
+    margin: 80px;
+  }
   .content {
     display: flex;
     justify-content: center;
