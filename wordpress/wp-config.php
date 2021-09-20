@@ -107,6 +107,16 @@ $table_prefix = getenv('WORDPRESS_TABLE_PREFIX');
  */
 define('WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', ''));
 
+define('S3_UPLOADS_BUCKET', getenv_docker('CELLAR_ADDON_BUCKET', ''));
+define('S3_UPLOADS_KEY', getenv_docker('CELLAR_ADDON_KEY_ID', ''));
+define('S3_UPLOADS_SECRET', getenv_docker('CELLAR_ADDON_KEY_SECRET', ''));
+define('S3_UPLOADS_REGION', 'Cellar');
+define('S3_UPLOADS_BUCKET_URL', 'https://' . getenv_docker('CELLAR_ADDON_BUCKET', '') . '.' . getenv_docker('CELLAR_ADDON_HOST', ''));
+define('S3_UPLOADS_ENDPOINT', 'https://' . getenv_docker('CELLAR_ADDON_HOST', ''));
+
+// Or if using IAM instance profiles, you can use the instance's credentials:
+define( 'S3_UPLOADS_USE_INSTANCE_PROFILE', true );
+
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
 // see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {

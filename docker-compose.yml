@@ -7,6 +7,8 @@ services:
     volumes:
       - ./config/php.conf.ini:/usr/local/etc/php/conf.d/php.ini
       - ./wordpress:/var/www/html
+    env_file:
+      - .env
     environment:
       - WORDPRESS_DB_NAME=${MYSQL_ADDON_DB}
       - WORDPRESS_TABLE_PREFIX=${WORDPRESS_TABLE_PREFIX:-wp_}
