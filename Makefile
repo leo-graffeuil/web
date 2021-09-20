@@ -22,10 +22,10 @@ build_sass:
 vendor:
 	$(YARN) install --force
 
-DIR = uploads/
 sync_s3_uploads:
-	$(S3CMD) sync $(DIR) s3://wp_uploads
+	$(S3CMD) sync wordpress/wp-content/uploads s3://wp_uploads
 
+DIR = uploads/
 s3_public_acl:
 	$(S3CMD) setacl s3://wp_uploads/$(DIR) --acl-public --recursive
 
