@@ -1,0 +1,53 @@
+[27-Oct-2021 11:24:40 UTC] PHP Warning:  require(/Users/leograffeuil/Local Sites/testsite2/app/public/wp-content/themes/twentytwentyone/inc/customizer.php): failed to open stream: No such file or directory in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-content/themes/twentytwentyone/functions.php on line 127
+[27-Oct-2021 11:24:40 UTC] PHP Stack trace:
+[27-Oct-2021 11:24:40 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/theme-editor.php:0
+[27-Oct-2021 11:24:40 UTC] PHP   2. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/theme-editor.php:10
+[27-Oct-2021 11:24:40 UTC] PHP   3. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/admin.php:34
+[27-Oct-2021 11:24:40 UTC] PHP   4. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-load.php:50
+[27-Oct-2021 11:24:40 UTC] PHP   5. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-config.php:77
+[27-Oct-2021 11:24:40 UTC] PHP   6. include() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-settings.php:546
+[27-Oct-2021 11:24:40 UTC] PHP Fatal error:  require(): Failed opening required '/Users/leograffeuil/Local Sites/testsite2/app/public/wp-content/themes/twentytwentyone/inc/customizer.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-content/themes/twentytwentyone/functions.php on line 127
+[27-Oct-2021 11:24:40 UTC] PHP Stack trace:
+[27-Oct-2021 11:24:40 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/theme-editor.php:0
+[27-Oct-2021 11:24:40 UTC] PHP   2. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/theme-editor.php:10
+[27-Oct-2021 11:24:40 UTC] PHP   3. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/admin.php:34
+[27-Oct-2021 11:24:40 UTC] PHP   4. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-load.php:50
+[27-Oct-2021 11:24:40 UTC] PHP   5. require_once() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-config.php:77
+[27-Oct-2021 11:24:40 UTC] PHP   6. include() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-settings.php:546
+[28-Oct-2021 14:05:36 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/update.php on line 143
+[28-Oct-2021 14:05:36 UTC] PHP Stack trace:
+[28-Oct-2021 14:05:36 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:0
+[28-Oct-2021 14:05:36 UTC] PHP   2. do_action_ref_array() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:138
+[28-Oct-2021 14:05:36 UTC] PHP   3. WP_Hook->do_action() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/plugin.php:518
+[28-Oct-2021 14:05:36 UTC] PHP   4. WP_Hook->apply_filters() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 14:05:36 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 14:05:36 UTC] PHP   6. WP_Site_Health->perform_test() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/class-wp-site-health.php:2762
+[28-Oct-2021 14:05:36 UTC] PHP   7. WP_Site_Health->get_test_background_updates() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/class-wp-site-health.php:192
+[28-Oct-2021 14:05:36 UTC] PHP   8. WP_Site_Health_Auto_Updates->run_tests() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/class-wp-site-health.php:1802
+[28-Oct-2021 14:05:36 UTC] PHP   9. WP_Site_Health_Auto_Updates->test_all_files_writable() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:37
+[28-Oct-2021 14:05:36 UTC] PHP  10. get_core_checksums() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:332
+[28-Oct-2021 14:05:36 UTC] PHP  11. trigger_error() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-admin/includes/update.php:143
+[28-Oct-2021 14:05:37 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php on line 175
+[28-Oct-2021 14:05:37 UTC] PHP Stack trace:
+[28-Oct-2021 14:05:37 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:0
+[28-Oct-2021 14:05:37 UTC] PHP   2. do_action_ref_array() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:138
+[28-Oct-2021 14:05:37 UTC] PHP   3. WP_Hook->do_action() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/plugin.php:518
+[28-Oct-2021 14:05:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 14:05:37 UTC] PHP   5. wp_version_check() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 14:05:37 UTC] PHP   6. trigger_error() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php:175
+[28-Oct-2021 14:05:37 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php on line 413
+[28-Oct-2021 14:05:37 UTC] PHP Stack trace:
+[28-Oct-2021 14:05:37 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:0
+[28-Oct-2021 14:05:37 UTC] PHP   2. do_action_ref_array() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:138
+[28-Oct-2021 14:05:37 UTC] PHP   3. WP_Hook->do_action() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/plugin.php:518
+[28-Oct-2021 14:05:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 14:05:37 UTC] PHP   5. wp_update_plugins() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 14:05:37 UTC] PHP   6. trigger_error() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php:413
+[28-Oct-2021 14:05:37 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php on line 693
+[28-Oct-2021 14:05:37 UTC] PHP Stack trace:
+[28-Oct-2021 14:05:37 UTC] PHP   1. {main}() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:0
+[28-Oct-2021 14:05:37 UTC] PHP   2. do_action_ref_array() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-cron.php:138
+[28-Oct-2021 14:05:37 UTC] PHP   3. WP_Hook->do_action() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/plugin.php:518
+[28-Oct-2021 14:05:37 UTC] PHP   4. WP_Hook->apply_filters() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 14:05:37 UTC] PHP   5. wp_update_themes() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 14:05:37 UTC] PHP   6. trigger_error() /Users/leograffeuil/Local Sites/testsite2/app/public/wp-includes/update.php:693
